@@ -1,39 +1,19 @@
+{% extends 'base.html' %}
 
-<!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-    <head>
-        {% load staticfiles %}
-        <!--
-        <link rel="stylesheet" type="text/css" href="{% static 'psycho/style.css' %}" />
-        <link rel="stylesheet" type="text/css" href="{% static 'psycho/demo.css' %}" />
-        <link rel="stylesheet" type="text/css"
-                    href="{% static 'psycho/animate-custom.css'%}" />-->
 
-    </head>
-    <body>
-        <header style="font-size:46px;padding: 2px 0 10px 0;text-align: center;font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;"> {{test.name}}</header>
-        <section>
-            <div id="container_demo" >
-                <div id="wrapper">
-                    <form method="post" action="{% url 'url_quizz' test.id user.id %}">
-                        {% csrf_token %}
-                        {% for field in response_form %}
-                            <li>
-                                <label class="label-inline">{{ field.label }}</label>
-                                <div>
-                                    {{ field }}
-                                </div>
-                            </li>
-                        {% endfor %}
-                        
-                            <input type="submit"/>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </body>
-</html>
+
+{% block body %}
+        <h1>{{test.name}}</h1>
+<form method="post" action="{% url 'url_quizz' test.id user.id %}">
+    {% csrf_token %}
+    {% for field in response_form %}
+        <div class="field-wrapper">
+            <label>{{ field.label }}</label>
+                    <div class="rad-btn">{{ field }}</div>
+        </div>
+    {% endfor %}
+    <p class="login button">
+        <input type="submit"/>
+    </p>
+</form>
+{% endblock %}

@@ -62,7 +62,7 @@ class Question(models.Model):
     def save(self, *args, **kwargs):
         if (self.question_type == Question.RADIO):
             validate_list(self.choices)
-            super(Question, self).save(*args, **kwargs)
+        super(Question, self).save(*args, **kwargs)
                                                  
     def get_choices(self):
         ''' parse the choices field and return a tuple formatted appropriately

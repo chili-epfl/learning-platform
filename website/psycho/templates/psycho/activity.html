@@ -1,20 +1,14 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-    <head>
-    </head>
-    <body>
-        <header> Click on the following link do complete the activity </header>
-        
-        <section id="content">
-            <form method="post" action="{% url 'url_activity' user.id %}">
-                {% csrf_token %}
-                <a href="{{activity.link}}" target='_blank'>Activity</a>
-                <input type="submit"/>
-            </form>
-        </section>
-    </body>
-</html>
+{% extends 'base.html' %}
+
+
+
+{% block body %}
+<p> Click on the following link to complete the activity: </p>
+    <form method="post" action="{% url 'url_activity' user.id %}">
+        {% csrf_token %}
+        <a href="{{activity.link}}" target='_blank'>Activity</a>
+        <p class="login button">
+            <input type="submit"/>
+        </p>
+    </form>
+{% endblock %}

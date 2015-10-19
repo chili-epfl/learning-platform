@@ -3,10 +3,12 @@
 
 
 {% block body %}
-<header style="font-size:46px;padding: 2px 0 10px 0;text-align: center;font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;"> Register to participate</header>
+<h1> Register to participate</h1>
     <form method="post" action="{% url 'url_registration' %}">
         {% csrf_token %}
         {{ form.as_p }}
-        <input type="submit"/>
+        <p class="login button">
+            <input type="submit"/>
+        </p>
     </form>
 {% endblock %}
