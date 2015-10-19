@@ -19,7 +19,7 @@
         <section>
             <div id="container_demo" >
                 <div id="wrapper">
-                    <form method="post" action="{% url 'url_quizz' test.id %}">
+                    <form method="post" action="{% url 'url_quizz' test.id user.id %}">
                         {% csrf_token %}
                         {% for field in response_form %}
                             <li>

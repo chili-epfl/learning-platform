@@ -7,13 +7,12 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('psycho', '0004_auto_20151012_2023'),
+        ('psycho', '0003_activity'),
     ]
 
     operations = [
-        migrations.RenameField(
-            model_name='test',
-            old_name='type',
-            new_name='category',
+        migrations.RemoveField(
+            model_name='user',
+            name='score_test',
         ),
     ]

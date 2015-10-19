@@ -1,31 +1,12 @@
-
-<!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-    <head>
-        {% load staticfiles %}
+{% extends 'base.html' %}
         
-        <link rel="stylesheet" type="text/css" href="{% static 'psycho/style.css' %}" />
-        <link rel="stylesheet" type="text/css" href="{% static 'psycho/demo.css' %}" />
-        <link rel="stylesheet" type="text/css"
-                    href="{% static 'psycho/animate-custom.css'%}" />
 
-    </head>
-    <body>
-        <header style="font-size:46px;padding: 2px 0 10px 0;text-align: center;font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;"> Register to participate</header>
-        <section>
-            <div id="container_demo" >
-                <div id="wrapper">
-                    <form method="post" action="{% url 'url_registration' %}">
-                        {% csrf_token %}
-                        {{ form.as_p }}
-                            <input type="submit"/>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </body>
-</html>
+
+{% block body %}
+<header style="font-size:46px;padding: 2px 0 10px 0;text-align: center;font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;"> Register to participate</header>
+    <form method="post" action="{% url 'url_registration' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit"/>
+    </form>
+{% endblock %}

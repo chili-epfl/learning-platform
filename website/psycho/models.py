@@ -10,15 +10,19 @@ TEST_TYPE_CHOICES = (
                      )
 
 # Create your models here.
+
 class User(models.Model):
-    email = models.EmailField(max_length=100)
+    email = models.EmailField(max_length=100,unique=True)
     age = models.IntegerField()
-    score_test = models.IntegerField(null=True)
     score_pre = models.IntegerField(null=True)
     score_post = models.IntegerField(null=True)
+    activity_one = models.IntegerField(null=True)
+    activity_two = models.IntegerField(null=True)
     
     def __str__(self):
         return self.email
+
+
 
 class Test(models.Model):
     
@@ -75,14 +79,15 @@ class Question(models.Model):
         return (self.text)
 
 class Response(models.Model):
-	# a response object is just a collection of questions and answers with a
-	# unique interview uuid
-	created = models.DateTimeField(auto_now_add=True)
-	test = models.ForeignKey(Test)
-	interview_uuid = models.CharField("Interview unique identifier", max_length=36)
+    # a response object is just a collection of questions and answers with a
+    # unique interview uuid
+    created = models.DateTimeField(auto_now_add=True)
+    test = models.ForeignKey(Test)
+    user = models.ForeignKey(User)
+    interview_uuid = models.CharField("Interview unique identifier", max_length=36)
     
-	def __unicode__(self):
-		return ("response %s" % self.interview_uuid)
+    def __unicode__(self):
+        return ("response %s" % self.interview_uuid)
 
 class AnswerBase(models.Model):
 	question = models.ForeignKey(Question)
@@ -98,4 +103,10 @@ class AnswerText(AnswerBase):
 class AnswerRadio(AnswerBase):
 	body = models.TextField(blank=True, null=True)
 
+class Activity(models.Model):
+    name = models.CharField(max_length=30) #would be in [A1.1 A1.2 A2.1 A2.2]
+    link = models.URLField()
+
+    def __unicode__(self):
+        return (self.name)
 

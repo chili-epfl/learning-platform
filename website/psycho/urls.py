@@ -18,6 +18,7 @@ from django.conf.urls import url, patterns
 
 urlpatterns = patterns('psycho.views',
                        url(r'^$', 'registration', name='url_registration'),
-                       url(r'^quizz/(?P<id>\d+)/$', 'TestDetail', name='url_quizz'),
+                       url(r'^quizz/(?P<id>\d+)/(?P<user>\d+)/$', 'TestDetail', name='url_quizz'),
+                       url(r'^activity/(?P<user>\d+)/$','AssignActivity', name='url_activity'),
                        url(r'^confirm/(?P<uuid>\w+)/$', 'Confirm', name='confirmation'),
 )
