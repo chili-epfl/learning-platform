@@ -3,6 +3,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from django.core import urlresolvers
+from django.core.urlresolvers import reverse
 from django.contrib import messages
 import datetime
 import website.settings
@@ -22,9 +23,9 @@ def registration(request):
             test = Test.objects.get(id=1)
             email = form.cleaned_data['email']
             user = User.objects.get(email = email)
-            next_form = ResponseForm(request.POST, test=test, user=user)
+            #next_form = ResponseForm(request.POST, test=test, user=user)
             
-            return render(request,'psycho/quiz.html',{'response_form': next_form, 'test': test, 'user':user} )
+            return HttpResponseRedirect(reverse('url_quizz', args=(test.id,user.id,)))
     else:
             form = RegistrationForm()
 
@@ -38,9 +39,12 @@ def TestDetail(request,id, user):
         form = ResponseForm(request.POST, test=test, user=user)
         if form.is_valid():
             response = form.save()
-            return HttpResponseRedirect("/psycho/activity/%s" % user.id)
-            #return HttpResponseRedirect("/psycho/confirm/%s" % response.interview_uuid)
-            #return render(request,'psycho/activity.html', {'user':user} )
+            if test.category == "PSYCHO":
+                next_test = Test.objects.get(id=2)
+                return HttpResponseRedirect(reverse('url_quizz', args=(next_test.id, user.id,)))
+            elif test.category == "PRETEST":
+                return HttpResponseRedirect("/psycho/activity/%s" % user.id)
+
     else:
         form = ResponseForm(test=test, user=user)
         # TODO sort by category, include category?

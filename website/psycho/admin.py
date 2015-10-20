@@ -4,7 +4,7 @@ from django.contrib import admin
 from psycho.models import User, Test, Question, AnswerText, AnswerRadio, Response, Activity
 
 class UserAdmin(admin.ModelAdmin):
-    list_display = ('email', 'age', 'score_pre', 'score_post')
+    list_display = ('email', 'age')
     search_fields = ('email',)
 
 admin.site.register(User, UserAdmin)
@@ -22,9 +22,9 @@ class QuestionAdmin(admin.ModelAdmin):
 admin.site.register(Question, QuestionAdmin)
 
 class ResponseAdmin(admin.ModelAdmin):
-    list_display = ('test','user','created', 'interview_uuid')
-    list_filter = ('created','test','interview_uuid')
-    search_fields = ('interview_uuid',)
+    list_display = ('test','user','created')
+    list_filter = ('created','test')
+    search_fields = ('user',)
 admin.site.register(Response, ResponseAdmin)
 
 class AnswerAdmin(admin.ModelAdmin):

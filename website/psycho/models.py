@@ -14,8 +14,6 @@ TEST_TYPE_CHOICES = (
 class User(models.Model):
     email = models.EmailField(max_length=100,unique=True)
     age = models.IntegerField()
-    score_pre = models.IntegerField(null=True)
-    score_post = models.IntegerField(null=True)
     activity_one = models.IntegerField(null=True)
     activity_two = models.IntegerField(null=True)
     
@@ -84,10 +82,9 @@ class Response(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     test = models.ForeignKey(Test)
     user = models.ForeignKey(User)
-    interview_uuid = models.CharField("Interview unique identifier", max_length=36)
     
     def __unicode__(self):
-        return ("response %s" % self.interview_uuid)
+        return ("response %s" % self.user.email)
 
 class AnswerBase(models.Model):
 	question = models.ForeignKey(Question)
@@ -104,8 +101,9 @@ class AnswerRadio(AnswerBase):
 	body = models.TextField(blank=True, null=True)
 
 class Activity(models.Model):
-    name = models.CharField(max_length=30) #would be in [A1.1 A1.2 A2.1 A2.2]
+    name = models.CharField(max_length=30) #would be in [A1.a A1.b A2.a A2.b]
     link = models.URLField()
+    #
 
     def __unicode__(self):
         return (self.name)
