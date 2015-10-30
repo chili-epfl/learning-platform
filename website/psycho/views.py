@@ -6,11 +6,12 @@ from django.core import urlresolvers
 from django.core.urlresolvers import reverse
 from django.contrib import messages
 import datetime
+from django.utils import timezone
 import website.settings
 import random
 import pdb;
 
-from psycho.models import User, Test, Question, Activity
+from psycho.models import User, Test, Question, Activity, UserActivity
 from psycho.forms import RegistrationForm, ResponseForm
 
 # Create your views here.
@@ -54,12 +55,14 @@ def AssignActivity(request, user):
     random_idx = random.randint(0, Activity.objects.count() - 1)
     user = User.objects.get(id=user)
     activity = Activity.objects.all()[random_idx]
+    user_activity = UserActivity(user=user,activity=activity)
+    user_activity.save()
     if request.method == 'POST':
-        if user.activity_one == None:
-            user.activity_one = activity.id
-        elif user.activity_two == None:
-            user.activity_two = activity.id
-        user.save()
+        ua = UserActivity.objects.get(id=user_activity.id)
+        ua.ended=timezone.now
+        ua.save()
+        #user_activity.ended = timezone.now
+        #user_activity.save()
         return render(request, 'psycho/greetings.html')
 
     return render(request, 'psycho/activity.html', {'user':user,'activity': activity})

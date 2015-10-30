@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from psycho.models import User, Test, Question, AnswerText, AnswerRadio, Response, Activity
+from psycho.models import User, Test, Question, AnswerText, AnswerRadio, Response, Activity, UserActivity
 
 class UserAdmin(admin.ModelAdmin):
     list_display = ('email', 'age')
@@ -35,3 +35,8 @@ admin.site.register(AnswerText, AnswerAdmin)
 admin.site.register(AnswerRadio, AnswerAdmin)
 
 admin.site.register(Activity)
+
+class UAAdmin(admin.ModelAdmin):
+    list_display = ('user','activity','started', 'ended')
+    list_filter = ('user','activity')
+admin.site.register(UserActivity, UAAdmin)

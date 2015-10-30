@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 from django.core.exceptions import ValidationError
 
 
@@ -14,8 +15,6 @@ TEST_TYPE_CHOICES = (
 class User(models.Model):
     email = models.EmailField(max_length=100,unique=True)
     age = models.IntegerField()
-    activity_one = models.IntegerField(null=True)
-    activity_two = models.IntegerField(null=True)
     
     def __str__(self):
         return self.email
@@ -52,7 +51,7 @@ class Question(models.Model):
                   )
     text = models.TextField()
     test = models.ForeignKey(Test)
-    question_type = models.CharField(max_length=200, choices=QUESTION_TYPES, default=TEXT)
+    question_type = models.CharField(max_length=100, choices=QUESTION_TYPES, default=TEXT)
     # the choices field is only used if the question type
     choices = models.TextField(blank=True, null=True,
         help_text='if the question type is "radio," provide a comma-separated list of options for this question .')
@@ -78,7 +77,6 @@ class Question(models.Model):
 
 class Response(models.Model):
     # a response object is just a collection of questions and answers with a
-    # unique interview uuid
     created = models.DateTimeField(auto_now_add=True)
     test = models.ForeignKey(Test)
     user = models.ForeignKey(User)
@@ -101,10 +99,32 @@ class AnswerRadio(AnswerBase):
 	body = models.TextField(blank=True, null=True)
 
 class Activity(models.Model):
+    DEF = 'Definition'
+    EX = 'Example'
+    
+    ACTIVITY_TYPES = (
+                      (DEF, 'Definition'),
+                      (EX, 'EXAMPLE'),
+                      )
     name = models.CharField(max_length=30) #would be in [A1.a A1.b A2.a A2.b]
     link = models.URLField()
-    #
+    activity_type = models.CharField(max_length=100, choices=ACTIVITY_TYPES, default=DEF)
 
     def __unicode__(self):
         return (self.name)
 
+class UserActivity(models.Model):
+    user = models.ForeignKey(User)
+    activity= models.ForeignKey(Activity)
+    started = models.DateTimeField(editable=False)
+    ended = models.DateTimeField()
+    
+    def save(self, *args, **kwargs):
+        ''' On save, update timestamps '''
+        if not self.id:
+            self.started = timezone.now()
+        self.ended = timezone.now()
+        return super(UserActivity, self).save(*args, **kwargs)
+
+    def __unicode__(self):
+        return "activity %s taken by user %s" % (self.activity.id , self.user.email)
