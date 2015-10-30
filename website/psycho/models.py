@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django.core.exceptions import ValidationError
-
+from embed_video.fields import EmbedVideoField
 
 # Create your models here.
 TEST_TYPE_CHOICES = (
@@ -77,9 +77,9 @@ class Question(models.Model):
 
 class Response(models.Model):
     # a response object is just a collection of questions and answers with a
-    created = models.DateTimeField(auto_now_add=True)
     test = models.ForeignKey(Test)
     user = models.ForeignKey(User)
+    timestamp = models.DateTimeField(auto_now=True)
     
     def __unicode__(self):
         return ("response %s" % self.user.email)
@@ -87,7 +87,7 @@ class Response(models.Model):
 class AnswerBase(models.Model):
 	question = models.ForeignKey(Question)
 	response = models.ForeignKey(Response)
-	created = models.DateTimeField(auto_now_add=True)
+	created = models.DateTimeField(auto_now=True)
 
 # these type-specific answer models use a text field to allow for flexible
 # field sizes depending on the actual question this answer corresponds to. any
@@ -99,16 +99,9 @@ class AnswerRadio(AnswerBase):
 	body = models.TextField(blank=True, null=True)
 
 class Activity(models.Model):
-    DEF = 'Definition'
-    EX = 'Example'
-    
-    ACTIVITY_TYPES = (
-                      (DEF, 'Definition'),
-                      (EX, 'EXAMPLE'),
-                      )
-    name = models.CharField(max_length=30) #would be in [A1.a A1.b A2.a A2.b]
+
+    name = models.CharField(max_length=30)
     link = models.URLField()
-    activity_type = models.CharField(max_length=100, choices=ACTIVITY_TYPES, default=DEF)
 
     def __unicode__(self):
         return (self.name)
@@ -116,8 +109,8 @@ class Activity(models.Model):
 class UserActivity(models.Model):
     user = models.ForeignKey(User)
     activity= models.ForeignKey(Activity)
-    started = models.DateTimeField(editable=False)
-    ended = models.DateTimeField()
+    completed = models.DateTimeField(auto_now=True)
+
     
     def save(self, *args, **kwargs):
         ''' On save, update timestamps '''

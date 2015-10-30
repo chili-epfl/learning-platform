@@ -22,8 +22,8 @@ class QuestionAdmin(admin.ModelAdmin):
 admin.site.register(Question, QuestionAdmin)
 
 class ResponseAdmin(admin.ModelAdmin):
-    list_display = ('test','user','created')
-    list_filter = ('created','test')
+    list_display = ('test','user','timestamp')
+    list_filter = ('timestamp','test')
     search_fields = ('user',)
 admin.site.register(Response, ResponseAdmin)
 
@@ -37,6 +37,6 @@ admin.site.register(AnswerRadio, AnswerAdmin)
 admin.site.register(Activity)
 
 class UAAdmin(admin.ModelAdmin):
-    list_display = ('user','activity','started', 'ended')
+    list_display = ('user','activity','completed')
     list_filter = ('user','activity')
 admin.site.register(UserActivity, UAAdmin)

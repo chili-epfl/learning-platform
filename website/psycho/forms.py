@@ -18,7 +18,7 @@ class HorizontalRadioRenderer(forms.RadioSelect.renderer):
 class ResponseForm(models.ModelForm):
     class Meta:
         model = Response
-        exclude = ('test','created', 'interview_uuid', 'user')
+        exclude = ('test','timestamp', 'user')
 
     def __init__(self, *args, **kwargs):
         # expects a survey object to be passed in initially
@@ -27,7 +27,6 @@ class ResponseForm(models.ModelForm):
         self.test = test
         self.user = user
         super(ResponseForm, self).__init__(*args, **kwargs)
-        self.uuid = random_uuid = uuid.uuid4().hex
         
         # add a field for each test question, corresponding to the question
         # type as appropriate.
@@ -48,7 +47,6 @@ class ResponseForm(models.ModelForm):
         response = super(ResponseForm, self).save(commit=False)
         response.test = self.test
         response.user = self.user
-        response.interview_uuid = self.uuid
         #add user column
         response.save()
         # create an answer object for each question and associate it with this response.

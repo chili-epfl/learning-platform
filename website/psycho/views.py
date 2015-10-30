@@ -58,11 +58,6 @@ def AssignActivity(request, user):
     user_activity = UserActivity(user=user,activity=activity)
     user_activity.save()
     if request.method == 'POST':
-        ua = UserActivity.objects.get(id=user_activity.id)
-        ua.ended=timezone.now
-        ua.save()
-        #user_activity.ended = timezone.now
-        #user_activity.save()
         return render(request, 'psycho/greetings.html')
 
     return render(request, 'psycho/activity.html', {'user':user,'activity': activity})
