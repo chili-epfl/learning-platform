@@ -10,10 +10,10 @@
         
         {% if "mp4" in activity.source %}
             <video width="100%" height="440" controls autoplay>
-                <source src="{% static 'Epidemic - definition and causes.mp4' %}" type="video/mp4"> </source>
+                <source src="{% static activity.source %}" type="video/mp4"> </source>
             </video>
         {% else %}
-            <iframe width="100%" height="440" src="{% static 'Epidemic - definition and causes.htm' %}"></iframe>
+            <iframe width="100%" height="440" src="{% static activity.source %}"></iframe>
         {% endif %}
         
         <p class="login button">

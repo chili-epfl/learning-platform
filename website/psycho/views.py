@@ -63,13 +63,14 @@ def AssignActivity(request, user):
         offset=Activity.CONCEPT_1
         #offset=2*Activity.CONCEPT_1 set to 1 for now to test
     activity = Activity.objects.all()[offset+random_idx]
-    #random_idx = random.randint(0, Activity.objects.count() - 1)
-    #activity = Activity.objects.all()[random_idx]
     
-    user_activity = UserActivity(user=user,activity=activity)
-    user_activity.save()
     if request.method == 'POST':
-        return HttpResponseRedirect(reverse('url_greetings'))
+        user_activity = UserActivity(user=user,activity=activity)
+        user_activity.save()
+        if UserActivity.objects.filter(user=user).count()<2:
+            return HttpResponseRedirect("/psycho/activity/%s" % user.id)
+        else:
+            return HttpResponseRedirect(reverse('url_greetings'))
         #return render(request, 'psycho/greetings.html')
 
     return render(request, 'psycho/activity.html', {'user':user,'activity': activity})
