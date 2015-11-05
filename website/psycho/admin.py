@@ -34,7 +34,11 @@ class AnswerAdmin(admin.ModelAdmin):
 admin.site.register(AnswerText, AnswerAdmin)
 admin.site.register(AnswerRadio, AnswerAdmin)
 
-admin.site.register(Activity)
+class ActivityAdmin(admin.ModelAdmin):
+    list_display = ('name','source','category')
+    list_filter = ('category',)
+    search_fields = ('name',)
+admin.site.register(Activity, ActivityAdmin)
 
 class UAAdmin(admin.ModelAdmin):
     list_display = ('user','activity','completed')

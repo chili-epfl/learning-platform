@@ -15,10 +15,12 @@ Including another URLconf
 
 """
 from django.conf.urls import url, patterns
+from django.views.generic import TemplateView
 
 urlpatterns = patterns('psycho.views',
                        url(r'^$', 'registration', name='url_registration'),
                        url(r'^quizz/(?P<id>\d+)/(?P<user>\d+)/$', 'TestDetail', name='url_quizz'),
                        url(r'^activity/(?P<user>\d+)/$','AssignActivity', name='url_activity'),
-                       url(r'^confirm/(?P<uuid>\w+)/$', 'Confirm', name='confirmation'),
+                       url(r'^greetings/$', TemplateView.as_view(template_name='psycho/greetings.html'), name='url_greetings'),
+
 )

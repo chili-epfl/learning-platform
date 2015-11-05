@@ -99,18 +99,27 @@ class AnswerRadio(AnswerBase):
 	body = models.TextField(blank=True, null=True)
 
 class Activity(models.Model):
-
+    
+    CONCEPT_1 = 1
+    CONCEPT_2 = 2
+    
+    CONCEPTS = (
+                (CONCEPT_1, 'first concept'),
+                (CONCEPT_2, 'second concept'),
+                )
+                
     name = models.CharField(max_length=30)
-    link = models.URLField()
+    source = models.URLField(max_length=200)
+    category = models.IntegerField(choices=CONCEPTS, default=CONCEPT_1)
+    
 
     def __unicode__(self):
         return (self.name)
 
 class UserActivity(models.Model):
     user = models.ForeignKey(User)
-    activity= models.ForeignKey(Activity)
+    activity = models.ForeignKey(Activity)
     completed = models.DateTimeField(auto_now=True)
-
     
     def save(self, *args, **kwargs):
         ''' On save, update timestamps '''

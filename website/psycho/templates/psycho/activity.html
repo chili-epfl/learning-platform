@@ -6,7 +6,16 @@
 <p> Click on the following link to complete the activity: </p>
     <form method="post" action="{% url 'url_activity' user.id %}">
         {% csrf_token %}
-        <a href="{{activity.link}}" target='_blank'>Activity</a>
+        {% load staticfiles %}
+        
+        {% if "mp4" in activity.source %}
+            <video width="100%" height="440" controls autoplay>
+                <source src="{% static 'Epidemic - definition and causes.mp4' %}" type="video/mp4"> </source>
+            </video>
+        {% else %}
+            <iframe width="100%" height="440" src="{% static 'Epidemic - definition and causes.htm' %}"></iframe>
+        {% endif %}
+        
         <p class="login button">
             <input type="submit"/>
         </p>
