@@ -109,7 +109,7 @@ class Activity(models.Model):
                 )
                 
     name = models.CharField(max_length=30)
-    source = models.URLField(max_length=200)
+    source = models.CharField(max_length=200)
     category = models.IntegerField(choices=CONCEPTS, default=CONCEPT_1)
     
 
