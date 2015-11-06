@@ -60,9 +60,9 @@ def AssignActivity(request, user):
     random_idx = random.randint(0, total_items - 1)
     offset=0
     if UserActivity.objects.filter(user=user).exists():
-        offset=Activity.CONCEPT_1
-        #offset=2*Activity.CONCEPT_1 set to 1 for now to test
-    activity = Activity.objects.all()[offset+random_idx]
+        offset=2*Activity.CONCEPT_1
+        #offset=Activity.CONCEPT_1 set to 1 for now to test
+    activity = Activity.objects.order_by('category')[offset+random_idx]
     
     if request.method == 'POST':
         user_activity = UserActivity(user=user,activity=activity)
