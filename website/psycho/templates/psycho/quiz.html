@@ -6,14 +6,22 @@
         <h1>{{test.name}}</h1>
 <form method="post" action="{% url 'url_quizz' test.id user.id %}">
     {% csrf_token %}
+    {% load staticfiles %}
     {% for field in response_form %}
         <div class="field-wrapper">
-            <label>{{ field.label }}</label>
+            {% if "jpg" in field.label %}
+            
+                <label>Select the right result image</label><br>
+                    <img src="{% static field.label %}" height="30%" width="60%">
                     <div class="rad-btn">{{ field }}</div>
+            {% else %}
+                    <label>{{ field.label }}</label>
+                        <div class="rad-btn">{{ field }}</div>
+            {% endif %}
         </div>
     {% endfor %}
     <p class="login button">
-        <input type="submit"/>
+        <input type="submit" value="Validate"/>
     </p>
 </form>
 {% endblock %}

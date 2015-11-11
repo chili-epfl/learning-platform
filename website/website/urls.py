@@ -19,8 +19,9 @@ from django.conf import settings
 from django.contrib import admin
 
 urlpatterns = patterns('',
-  url(r'^psycho/', include('psycho.urls')),
+  url(r'', include('psycho.urls')),
   url(r'^admin/', include(admin.site.urls)),
 
     )
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+handler404 = 'mysite.views.error404'

@@ -1,6 +1,6 @@
 /* remove codrops styles and reset the whole thing */
 body{
-	background: white url(static/images/bg.jpg ") no-repeat right bottom;
+	background: white url(images/bg.jpg) no-repeat right bottom;
 }
 
 #container-main{

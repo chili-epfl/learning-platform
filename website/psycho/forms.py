@@ -6,16 +6,19 @@ import uuid
 
 
 class RegistrationForm(forms.ModelForm):
+    '''Form for the resgitration of the user'''
     class Meta:
         model = User
         exclude = ('score_test', 'score_pre', 'score_post','activity_one','activity_two')
 
-
+'''horizontal display of the radio buttons'''
 class HorizontalRadioRenderer(forms.RadioSelect.renderer):
     def render(self):
         return mark_safe(u'\n'.join([u'%s\n' % w for w in self]))
 
 class ResponseForm(models.ModelForm):
+    '''Form for the tests 
+        The fields are the questions having the test as foreign key and the text of the question is their label'''
     class Meta:
         model = Response
         exclude = ('test','timestamp', 'user')

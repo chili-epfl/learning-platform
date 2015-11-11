@@ -11,17 +11,17 @@ import website.settings
 import random
 import pdb;
 
-from psycho.models import User, Test, Question, Activity, UserActivity
+from psycho.models import User, Test, Question, Activity, UserActivity, Response
 from psycho.forms import RegistrationForm, ResponseForm
 
-# Create your views here.
 
+'''view for registration form'''
 def registration(request):
     if request.method == 'POST':
         form = RegistrationForm(request.POST)
         if form.is_valid():
             form.save()
-            test = Test.objects.get(id=1)
+            test = Test.objects.get(category="PSYCHO")
             email = form.cleaned_data['email']
             user = User.objects.get(email = email)
             #next_form = ResponseForm(request.POST, test=test, user=user)
@@ -32,6 +32,7 @@ def registration(request):
 
     return render(request, 'psycho/registration.html', {'form':form})
 
+#This function is used for Psycholgical test, pre-test and post-test
 def TestDetail(request,id, user):
     test = Test.objects.get(id=id)
     user = User.objects.get(id=user)
@@ -41,37 +42,41 @@ def TestDetail(request,id, user):
         if form.is_valid():
             response = form.save()
             if test.category == "PSYCHO":
-                next_test = Test.objects.get(id=2)
+                #for now there is only one pre-test, add the selection if more
+                next_test = Test.objects.get(category="PRETEST")
                 return HttpResponseRedirect(reverse('url_quizz', args=(next_test.id, user.id,)))
             elif test.category == "PRETEST":
-                return HttpResponseRedirect("/psycho/activity/%s" % user.id)
-
+                if Response.objects.filter(user=user,test=test).count()<2:
+                    return HttpResponseRedirect("/activity/%s" % user.id)
+                else:
+                    return HttpResponseRedirect(reverse('url_greetings'))
     else:
         form = ResponseForm(test=test, user=user)
-        # TODO sort by category, include category?
     return render(request, 'psycho/quiz.html', {'response_form': form, 'test': test, 'user':user})
 
-#We can also assume that there is always an even number of activities by category
+#We assume there is always an even number of activities by category
 def AssignActivity(request, user):
     
     user = User.objects.get(id=user)
     
     total_items = Activity.objects.filter(category=Activity.CONCEPT_1).count()
     random_idx = random.randint(0, total_items - 1)
+    '''The offset is used to select an activity from the following concept'''
     offset=0
     if UserActivity.objects.filter(user=user).exists():
         offset=2*Activity.CONCEPT_1
-        #offset=Activity.CONCEPT_1 set to 1 for now to test
     activity = Activity.objects.order_by('category')[offset+random_idx]
     
     if request.method == 'POST':
         user_activity = UserActivity(user=user,activity=activity)
         user_activity.save()
         if UserActivity.objects.filter(user=user).count()<2:
-            return HttpResponseRedirect("/psycho/activity/%s" % user.id)
+            return HttpResponseRedirect("/activity/%s" % user.id)
         else:
-            return HttpResponseRedirect(reverse('url_greetings'))
-        #return render(request, 'psycho/greetings.html')
+            test=Test.objects.get(category="PRETEST")
+            return HttpResponseRedirect(reverse('url_quizz', args=(test.id,user.id,)))
 
     return render(request, 'psycho/activity.html', {'user':user,'activity': activity})
 
+def error404(request):
+    return render(request,'404.html')

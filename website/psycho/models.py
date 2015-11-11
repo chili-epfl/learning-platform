@@ -13,6 +13,7 @@ TEST_TYPE_CHOICES = (
 # Create your models here.
 
 class User(models.Model):
+    
     email = models.EmailField(max_length=100,unique=True)
     age = models.IntegerField()
     
@@ -117,16 +118,10 @@ class Activity(models.Model):
         return (self.name)
 
 class UserActivity(models.Model):
+    #a useractivity object records the activities took by a user and the the time of their completion
     user = models.ForeignKey(User)
     activity = models.ForeignKey(Activity)
     completed = models.DateTimeField(auto_now=True)
-    
-    def save(self, *args, **kwargs):
-        ''' On save, update timestamps '''
-        if not self.id:
-            self.started = timezone.now()
-        self.ended = timezone.now()
-        return super(UserActivity, self).save(*args, **kwargs)
 
     def __unicode__(self):
         return "activity %s taken by user %s" % (self.activity.id , self.user.email)

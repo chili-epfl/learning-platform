@@ -3,7 +3,7 @@
 
 
 {% block body %}
-<p> Click on the following link to complete the activity: </p>
+<p> Click on "Validate" when you accomplish the activity: </p>
     <form method="post" action="{% url 'url_activity' user.id %}">
         {% csrf_token %}
         {% load staticfiles %}
@@ -17,7 +17,7 @@
         {% endif %}
         
         <p class="login button">
-            <input type="submit"/>
+            <input type="submit" value="Validate"/>
         </p>
     </form>
 {% endblock %}
