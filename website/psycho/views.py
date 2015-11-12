@@ -49,7 +49,10 @@ def TestDetail(request,id, user):
                 if Response.objects.filter(user=user,test=test).count()<2:
                     return HttpResponseRedirect("/activity/%s" % user.id)
                 else:
-                    return HttpResponseRedirect(reverse('url_greetings'))
+                    next_test = Test.objects.get(category="ASSESS")
+                    return HttpResponseRedirect(reverse('url_quizz', args=(next_test.id, user.id,)))    
+            elif test.category =="ASSESS":
+                return HttpResponseRedirect(reverse('url_greetings'))
     else:
         form = ResponseForm(test=test, user=user)
     return render(request, 'psycho/quiz.html', {'response_form': form, 'test': test, 'user':user})

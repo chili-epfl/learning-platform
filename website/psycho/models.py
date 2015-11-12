@@ -1,14 +1,6 @@
 from django.db import models
 from django.utils import timezone
 from django.core.exceptions import ValidationError
-from embed_video.fields import EmbedVideoField
-
-# Create your models here.
-TEST_TYPE_CHOICES = (
-                     ('PRETEST',
-                      'PreTest'),
-                     ('PSYCHO','Psycho'),
-                     )
 
 # Create your models here.
 
@@ -23,7 +15,14 @@ class User(models.Model):
 
 
 class Test(models.Model):
-    
+
+    TEST_TYPE_CHOICES = (
+                         ('PRETEST',
+                          'PreTest'),
+                         ('PSYCHO','Psycho'),
+                         ('ASSESS','Assess'),
+                         )
+
     name = models.CharField(max_length=30)
     category = models.CharField(max_length=20, choices=TEST_TYPE_CHOICES)
 
