@@ -4,11 +4,24 @@
 
 {% block body %}
         <h1>{{test.name}}</h1>
+{% if test.category in 'ASSESS' %}
+<p>
+Answer from 1 to 5:<br>
+<ul>
+    <li>1: Strongly disagree</li>
+    <li>2: Disagree </li>
+    <li>3: Neutral </li>
+    <li>4: Agree </li>
+    <li>5: Strongly Agree </li>
+</ul>
+</p>
+{% endif %}
 <form method="post" action="{% url 'url_quizz' test.id user.id %}">
     {% csrf_token %}
     {% load staticfiles %}
     {% for field in response_form %}
         <div class="field-wrapper">
+            
             {% if "jpg" in field.label %}
             
                 <label>Select the right result image</label><br>
