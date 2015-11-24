@@ -37,8 +37,7 @@ def registration(request):
 def TestDetail(request,id, user):
     test = Test.objects.get(id=id)
     user = User.objects.get(id=user)
-    boolean_val = (request.method == 'POST')
-    if boolean_val:
+    if request.method == 'POST':
         form = ResponseForm(request.POST, test=test, user=user)
         if form.is_valid():
             response = form.save()
@@ -48,7 +47,7 @@ def TestDetail(request,id, user):
                 return HttpResponseRedirect(reverse('url_quizz', args=(next_test.id, user.id,)))
             elif test.category == "PRETEST":
                 if Response.objects.filter(user=user,test=test).count()<2:
-                    return HttpResponseRedirect("/activity/%s" % user.id)
+                    return HttpResponseRedirect(reverse('url_intro', args=(user.id,)))
                 else:
                     next_test = Test.objects.get(category="ASSESS")
                     return HttpResponseRedirect(reverse('url_quizz', args=(next_test.id, user.id,)))    
@@ -82,12 +81,19 @@ def AssignActivity(request, user):
         user_activity = UserActivity(user=user,activity=activity)
         user_activity.save()
         if UserActivity.objects.filter(user=user).count()<2:
-            return HttpResponseRedirect("/activity/%s" % user.id)
+            return HttpResponseRedirect("/activity/%s" % user)
         else:
             test=Test.objects.get(category="PRETEST")
             return HttpResponseRedirect(reverse('url_quizz', args=(test.id,user.id,)))
 
     return render(request, 'psycho/activity.html', {'user':user,'activity': activity})
+
+def ActivityIntro(request, user):
+    if request.method == 'POST':
+        return HttpResponseRedirect("/activity/%s" % user)
+    
+    return render(request, 'psycho/intro.html', {'user':user})
+
 
 def error404(request):
     return render(request,'404.html')

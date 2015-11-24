@@ -3,7 +3,14 @@
 
 
 {% block body %}
+{% if "Prerequisite Test" in test.name %}
+        <h1> Test </h1>
+<div style="font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+font-size: 20px;"><p> The following questions are about the two concetps you are going to learn today. You don't have to know the answers. Please select the answer that indicates that you don't know if so. </p></div>
+{% else %}
         <h1>{{test.name}}</h1>
+{% endif %}
+
 {% if test.category in 'ASSESS' %}
 <p>
 Answer from 1 to 5:<br>
@@ -38,3 +45,8 @@ Answer from 1 to 5:<br>
     </p>
 </form>
 {% endblock %}
+<div style=tyle="font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+    font-size: 20px;">
+    <p> For the next steps, you are going to be redirected to two consecutive contents. <br/>The first one will teach you about the definition of epidemics and its causes. <br/> The second one is about the representive number of an epidemic.</p>
+</div>
+
