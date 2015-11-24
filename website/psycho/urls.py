@@ -22,5 +22,6 @@ urlpatterns = patterns('psycho.views',
                        url(r'^quizz/(?P<id>\d+)/(?P<user>\d+)/$', 'TestDetail', name='url_quizz'),
                        url(r'^activity/(?P<user>\d+)/$','AssignActivity', name='url_activity'),
                        url(r'^greetings/$', TemplateView.as_view(template_name='psycho/greetings.html'), name='url_greetings'),
+                       url(r'^intro/(?P<user>\d+)/$','ActivityIntro', name='url_intro'),
 
 )
