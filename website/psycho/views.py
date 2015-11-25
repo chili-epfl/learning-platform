@@ -81,7 +81,7 @@ def AssignActivity(request, user):
         user_activity = UserActivity(user=user,activity=activity)
         user_activity.save()
         if UserActivity.objects.filter(user=user).count()<2:
-            return HttpResponseRedirect("/activity/%s" % user)
+            return HttpResponseRedirect("/activity/%s" % user.id)
         else:
             test=Test.objects.get(category="PRETEST")
             return HttpResponseRedirect(reverse('url_quizz', args=(test.id,user.id,)))
