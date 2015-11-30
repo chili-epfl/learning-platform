@@ -4,6 +4,7 @@
 
 {% block body %}
 <h1> Register to participate</h1>
+    On this website you will learn a few important concepts about epidemics in 10-15 minutes. We are conducting an experiment in which we analyse how people learn, in order to improve quality of education. Please contribute and share it with your friends. <a href="http://chili.epfl.ch/">Click here</a> to learn more about our laboratory. Start now and support science!
     <form method="post" action="{% url 'url_registration' %}">
         {% csrf_token %}
         {{ form.as_p }}
