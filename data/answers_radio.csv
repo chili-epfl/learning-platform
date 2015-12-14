@@ -1,0 +1,3655 @@
+answerbase_ptr_id,body
+301,Monday
+302,"Haven't graduated high school"
+303,"Strongly Disagree"
+304,"Strongly Disagree"
+305,"Strongly Disagree"
+306,"Strongly Disagree"
+307,"Strongly Disagree"
+310,A
+311,A
+312,A
+313,Disagree
+315,A
+316,B
+317,"Strongly Disagree"
+318,Disagree
+320,"Strongly Disagree"
+321,Male
+322,"Strongly Disagree"
+323,High
+324,False
+326,True
+327,"The number of susceptible people"
+328,"A micro-organism"
+329,Cholera
+450,Monday
+451,Doctorate
+452,"Strongly Agree"
+453,"Strongly Agree"
+454,"Strongly Disagree"
+455,Agree
+456,Disagree
+459,B
+460,D
+461,B
+462,Neutral
+464,C
+465,D
+466,Agree
+467,"Strongly Agree"
+469,Agree
+470,Male
+471,"Strongly Agree"
+472,Weak
+473,True
+475,"I don't know"
+476,"Transmissibility rate"
+477,"All of stated answers"
+478,Diabetes
+479,Weak
+480,False
+482,True
+483,"The number of susceptible people"
+484,"All of stated answers"
+485,Diabetes
+486,1
+487,4
+488,5
+489,1
+528,Monday
+529,Doctorate
+530,Agree
+531,"Strongly Disagree"
+532,"Strongly Agree"
+533,Agree
+534,Agree
+537,B
+538,D
+539,B
+540,Neutral
+542,A
+543,D
+544,Neutral
+545,"Strongly Agree"
+547,"Strongly Disagree"
+548,Male
+549,Agree
+550,Weak
+551,True
+553,True
+554,"Transmissibility rate"
+555,"All of stated answers"
+556,Diabetes
+557,Weak
+558,True
+560,True
+561,"Transmissibility rate"
+562,"Environmental cause"
+563,Diabetes
+564,1
+565,2
+566,5
+567,1
+569,Monday
+570,Doctorate
+571,Agree
+572,Neutral
+573,Agree
+574,Disagree
+575,Agree
+578,B
+579,D
+580,B
+581,Neutral
+583,A
+584,D
+585,Neutral
+586,Disagree
+588,Neutral
+589,Male
+590,Agree
+591,High
+592,False
+594,True
+595,"Transmissibility rate"
+596,"All of stated answers"
+597,Diabetes
+598,Weak
+599,False
+601,True
+602,"Transmissibility rate"
+603,"All of stated answers"
+604,Diabetes
+605,2
+606,3
+607,4
+608,3
+610,Monday
+611,Doctorate
+612,Agree
+613,Agree
+614,Agree
+615,Neutral
+616,Agree
+619,B
+620,D
+621,B
+622,Disagree
+624,A
+625,D
+626,Neutral
+627,Agree
+629,Agree
+630,Female
+631,Agree
+632,High
+633,False
+635,"I don't know"
+636,"Transmissibility rate"
+637,"I don't know"
+638,"I don't know"
+640,Monday
+641,Bachelors
+642,Agree
+643,Disagree
+644,Agree
+645,Neutral
+646,Disagree
+649,E
+650,E
+651,E
+652,Agree
+654,E
+655,E
+656,Agree
+657,"Strongly Agree"
+659,Neutral
+660,Male
+661,Disagree
+662,Weak
+663,False
+665,True
+666,"Transmissibility rate"
+667,"A micro-organism"
+668,Diabetes
+670,Monday
+671,"College student"
+672,Agree
+673,Disagree
+674,Neutral
+675,Agree
+676,Disagree
+679,B
+680,D
+681,B
+682,Disagree
+684,A
+685,D
+686,Agree
+687,Agree
+689,Disagree
+690,Female
+691,Disagree
+692,High
+693,False
+695,True
+696,"Transmissibility rate"
+697,"Environmental cause"
+698,Diabetes
+699,High
+700,True
+702,True
+703,"Transmissibility rate"
+704,"All of stated answers"
+705,Diabetes
+706,2
+707,4
+708,3
+709,2
+738,Monday
+739,Masters
+740,Agree
+741,Neutral
+742,"Strongly Disagree"
+743,"Strongly Agree"
+744,E
+745,B
+746,Disagree
+747,A
+748,D
+749,Agree
+750,Neutral
+751,Female
+752,B
+753,Disagree
+755,Neutral
+756,Neutral
+757,"I don't know"
+758,"I don't know"
+760,"I don't know"
+761,"The number of susceptible people"
+762,"I don't know"
+763,"I don't know"
+830,Thursday
+831,Doctorate
+832,Agree
+833,Agree
+834,Agree
+835,Agree
+836,A
+837,B
+838,Disagree
+839,A
+840,D
+841,Agree
+842,Agree
+843,Female
+844,D
+845,Disagree
+847,Agree
+848,Disagree
+850,Monday
+851,Doctorate
+852,Disagree
+853,Neutral
+854,"Strongly Agree"
+855,Disagree
+856,B
+857,B
+858,Agree
+859,A
+860,D
+861,Neutral
+862,"Strongly Agree"
+863,Male
+864,D
+865,Agree
+867,Disagree
+868,Agree
+869,High
+870,False
+872,True
+873,"Transmissibility rate"
+874,"All of stated answers"
+875,Diabetes
+876,Weak
+877,True
+879,True
+880,"Transmissibility rate"
+881,"All of stated answers"
+882,Diabetes
+883,2
+884,3
+885,4
+886,3
+887,High
+888,False
+890,True
+891,"The number of susceptible people"
+892,"A micro-organism"
+893,Diabetes
+894,High
+895,True
+897,True
+898,"Transmissibility rate"
+899,"A micro-organism"
+900,Diabetes
+901,1
+902,2
+903,5
+904,1
+906,Tuesday
+907,Doctorate
+908,Agree
+909,Disagree
+910,Agree
+911,Agree
+912,B
+913,B
+914,Agree
+915,A
+916,D
+917,Agree
+918,"Strongly Agree"
+919,Female
+920,D
+921,Disagree
+923,Disagree
+924,Disagree
+925,Weak
+926,False
+928,True
+929,"Transmissibility rate"
+930,"A micro-organism"
+931,Diabetes
+933,Monday
+934,Masters
+935,Agree
+936,Agree
+937,Agree
+938,Agree
+939,B
+940,B
+941,Disagree
+942,A
+943,D
+944,Neutral
+945,"Strongly Agree"
+946,Male
+947,D
+948,Disagree
+950,Agree
+951,"Strongly Disagree"
+952,Weak
+953,"I don't know"
+955,"I don't know"
+956,"Transmissibility rate"
+957,"I don't know"
+958,Diabetes
+959,Weak
+960,True
+962,True
+963,"Transmissibility rate"
+964,"A micro-organism"
+965,Diabetes
+966,3
+967,4
+968,4
+969,2
+971,Monday
+972,Bachelors
+973,"Strongly Agree"
+974,Agree
+975,"Strongly Disagree"
+976,"Strongly Agree"
+977,B
+978,B
+979,Disagree
+980,A
+981,D
+982,Neutral
+983,Neutral
+984,Female
+985,D
+986,Neutral
+988,Agree
+989,Disagree
+990,"I don't know"
+991,"I don't know"
+993,"I don't know"
+994,"I don't know"
+995,"I don't know"
+996,"I don't know"
+998,Monday
+999,Masters
+1000,"Strongly Agree"
+1001,"Strongly Agree"
+1002,Disagree
+1003,"Strongly Agree"
+1004,B
+1005,B
+1006,Disagree
+1007,A
+1008,D
+1009,Neutral
+1010,Disagree
+1011,Male
+1012,D
+1013,Agree
+1015,Agree
+1016,"Strongly Agree"
+1018,Monday
+1019,Masters
+1020,Agree
+1021,Neutral
+1022,Neutral
+1023,Agree
+1024,B
+1025,B
+1026,Agree
+1027,A
+1028,D
+1029,Agree
+1030,Agree
+1031,Male
+1032,D
+1033,Disagree
+1035,Neutral
+1036,Disagree
+1038,Monday
+1039,Masters
+1040,Agree
+1041,Agree
+1042,Disagree
+1043,Agree
+1044,B
+1045,B
+1046,Disagree
+1047,A
+1048,D
+1049,Agree
+1050,"Strongly Agree"
+1051,Male
+1052,D
+1053,Neutral
+1055,Neutral
+1056,Agree
+1058,Tuesday
+1059,Masters
+1060,Agree
+1061,Neutral
+1062,Agree
+1063,Neutral
+1064,B
+1065,B
+1066,Agree
+1067,A
+1068,D
+1069,Neutral
+1070,Agree
+1071,Male
+1072,D
+1073,"Strongly Agree"
+1075,Neutral
+1076,"Strongly Agree"
+1077,High
+1078,False
+1080,True
+1081,"Transmissibility rate"
+1082,"All of stated answers"
+1083,Diabetes
+1084,High
+1085,"I don't know"
+1087,False
+1088,"Transmissibility rate"
+1089,"A micro-organism"
+1090,Diabetes
+1091,High
+1092,False
+1094,"I don't know"
+1095,"Transmissibility rate"
+1096,"All of stated answers"
+1097,Diabetes
+1098,Weak
+1099,True
+1101,True
+1102,"The number of susceptible people"
+1103,"All of stated answers"
+1104,Diabetes
+1105,1
+1106,2
+1107,4
+1108,1
+1110,Wednesday
+1111,Masters
+1112,"Strongly Agree"
+1113,Agree
+1114,"Strongly Disagree"
+1115,"Strongly Agree"
+1116,A
+1117,B
+1118,"Strongly Disagree"
+1119,A
+1120,D
+1121,Agree
+1122,Agree
+1123,Female
+1124,B
+1125,Neutral
+1127,"Strongly Agree"
+1128,Agree
+1130,Monday
+1131,Masters
+1132,"Strongly Agree"
+1133,"Strongly Agree"
+1134,"Strongly Disagree"
+1135,Agree
+1136,B
+1137,B
+1138,"Strongly Disagree"
+1139,A
+1140,D
+1141,Agree
+1142,"Strongly Agree"
+1143,Male
+1144,D
+1145,Neutral
+1147,"Strongly Disagree"
+1148,"Strongly Agree"
+1149,Weak
+1150,"I don't know"
+1152,False
+1153,"Transmissibility rate"
+1154,"I don't know"
+1155,"I don't know"
+1156,High
+1157,False
+1159,True
+1160,"Transmissibility rate"
+1161,"All of stated answers"
+1162,Measles
+1164,Monday
+1165,Masters
+1166,Agree
+1167,Agree
+1168,Agree
+1169,Neutral
+1170,B
+1171,B
+1172,Agree
+1173,A
+1174,D
+1175,Neutral
+1176,Agree
+1177,Male
+1178,D
+1179,Agree
+1181,Neutral
+1182,Agree
+1183,High
+1184,True
+1186,True
+1187,"Transmissibility rate"
+1188,"All of stated answers"
+1189,Measles
+1190,1
+1191,1
+1192,5
+1193,1
+1194,Weak
+1195,True
+1197,True
+1198,"Transmissibility rate"
+1199,"All of stated answers"
+1200,Diabetes
+1201,Weak
+1202,True
+1204,True
+1205,"Transmissibility rate"
+1206,"All of stated answers"
+1207,Diabetes
+1208,Weak
+1209,True
+1211,True
+1212,"Transmissibility rate"
+1213,"All of stated answers"
+1214,Diabetes
+1216,Tuesday
+1217,Masters
+1218,Agree
+1219,Neutral
+1220,Disagree
+1221,Agree
+1222,B
+1223,B
+1224,Neutral
+1225,A
+1226,D
+1227,Agree
+1228,Agree
+1229,Male
+1230,D
+1231,Disagree
+1233,Neutral
+1234,Agree
+1236,Monday
+1237,Doctorate
+1238,"Strongly Agree"
+1239,Neutral
+1240,Disagree
+1241,Agree
+1242,B
+1243,B
+1244,Disagree
+1245,A
+1246,D
+1247,Neutral
+1248,Neutral
+1249,Male
+1250,D
+1251,Neutral
+1253,Neutral
+1254,Neutral
+1255,1
+1256,3
+1257,4
+1258,3
+1259,"I don't know"
+1260,"I don't know"
+1262,"I don't know"
+1263,"Transmissibility rate"
+1264,"All of stated answers"
+1265,Diabetes
+1266,"I don't know"
+1267,True
+1269,True
+1270,"Transmissibility rate"
+1271,"All of stated answers"
+1272,Diabetes
+1273,Weak
+1274,False
+1276,True
+1277,"Transmissibility rate"
+1278,"All of stated answers"
+1279,Diabetes
+1280,3
+1281,3
+1282,4
+1283,3
+1285,Monday
+1286,Bachelors
+1287,"Strongly Agree"
+1288,Agree
+1289,Agree
+1290,"Strongly Agree"
+1291,E
+1292,B
+1293,Neutral
+1294,A
+1295,A
+1296,Neutral
+1297,"Strongly Agree"
+1298,Female
+1299,B
+1300,Neutral
+1302,"Strongly Disagree"
+1303,Neutral
+1304,Weak
+1305,True
+1307,True
+1308,"Transmissibility rate"
+1309,"A micro-organism"
+1310,Diabetes
+1311,3
+1312,3
+1313,2
+1314,2
+1315,Weak
+1316,True
+1318,True
+1319,"The number of susceptible people"
+1320,"All of stated answers"
+1321,Diabetes
+1322,Weak
+1323,True
+1325,True
+1326,"The number of susceptible people"
+1327,"All of stated answers"
+1328,Diabetes
+1329,1
+1330,4
+1331,3
+1332,2
+1334,Monday
+1335,Bachelors
+1336,Neutral
+1337,Neutral
+1338,Agree
+1339,Neutral
+1340,B
+1341,B
+1342,Agree
+1343,A
+1344,D
+1345,Agree
+1346,"Strongly Agree"
+1347,Male
+1348,D
+1349,Disagree
+1351,Neutral
+1352,Disagree
+1353,"I don't know"
+1354,"I don't know"
+1356,"I don't know"
+1357,"Transmissibility rate"
+1358,"I don't know"
+1359,Diabetes
+1361,Monday
+1362,Bachelors
+1363,Neutral
+1364,Agree
+1365,Agree
+1366,Disagree
+1367,A
+1368,B
+1369,Neutral
+1370,A
+1371,A
+1372,Neutral
+1373,Agree
+1374,Male
+1375,B
+1376,Neutral
+1378,Disagree
+1379,Neutral
+1380,Weak
+1381,True
+1383,"I don't know"
+1384,"Transmissibility rate"
+1385,"All of stated answers"
+1386,Diabetes
+1388,Monday
+1389,Masters
+1390,Agree
+1391,Neutral
+1392,Agree
+1393,Disagree
+1394,B
+1395,B
+1396,Agree
+1397,A
+1398,D
+1399,Neutral
+1400,Agree
+1401,Male
+1402,D
+1403,Disagree
+1405,Disagree
+1406,Agree
+1408,Monday
+1409,Bachelors
+1410,Agree
+1411,Neutral
+1412,Neutral
+1413,Agree
+1414,B
+1415,B
+1416,Disagree
+1417,A
+1418,D
+1419,Agree
+1420,Agree
+1421,Male
+1422,D
+1423,"Strongly Disagree"
+1425,Disagree
+1426,Agree
+1427,Weak
+1428,True
+1430,"I don't know"
+1431,"Transmissibility rate"
+1432,"All of stated answers"
+1433,Diabetes
+1434,3
+1435,4
+1436,3
+1437,2
+1438,High
+1439,False
+1441,"I don't know"
+1442,"Transmissibility rate"
+1443,"All of stated answers"
+1444,"I don't know"
+1445,Weak
+1446,True
+1448,True
+1449,"Transmissibility rate"
+1450,"All of stated answers"
+1451,Diabetes
+1452,Weak
+1453,False
+1455,True
+1456,"Transmissibility rate"
+1457,"All of stated answers"
+1458,Diabetes
+1459,2
+1460,3
+1461,3
+1462,2
+1464,Monday
+1465,Bachelors
+1466,Neutral
+1467,Disagree
+1468,Neutral
+1469,Agree
+1470,B
+1471,B
+1472,Neutral
+1473,A
+1474,D
+1475,Neutral
+1476,Neutral
+1477,Male
+1478,D
+1479,Agree
+1481,Disagree
+1482,Agree
+1483,"I don't know"
+1484,True
+1486,"I don't know"
+1487,"Transmissibility rate"
+1488,"I don't know"
+1489,Diabetes
+1490,Weak
+1491,False
+1493,True
+1494,"Transmissibility rate"
+1495,"All of stated answers"
+1496,Diabetes
+1497,1
+1498,2
+1499,4
+1500,2
+1501,Weak
+1502,True
+1504,True
+1505,"The number of susceptible people"
+1506,"All of stated answers"
+1507,Diabetes
+1508,2
+1509,2
+1510,4
+1511,2
+1513,Monday
+1514,Bachelors
+1515,Disagree
+1516,Agree
+1517,Agree
+1518,Disagree
+1519,B
+1520,B
+1521,Agree
+1522,A
+1523,D
+1524,"Strongly Disagree"
+1525,Neutral
+1526,Female
+1527,D
+1528,Disagree
+1530,Disagree
+1531,Disagree
+1532,"I don't know"
+1533,False
+1535,"I don't know"
+1536,"Transmissibility rate"
+1537,"All of stated answers"
+1538,Diabetes
+1539,Weak
+1540,True
+1542,True
+1543,"Transmissibility rate"
+1544,"All of stated answers"
+1545,Diabetes
+1546,1
+1547,4
+1548,2
+1549,2
+1551,Monday
+1552,Masters
+1553,Agree
+1554,Agree
+1555,Disagree
+1556,Neutral
+1557,B
+1558,B
+1559,Disagree
+1560,A
+1561,D
+1562,Agree
+1563,Agree
+1564,Male
+1565,D
+1566,Agree
+1568,Disagree
+1569,Agree
+1571,Monday
+1572,Masters
+1573,Agree
+1574,Agree
+1575,Disagree
+1576,Neutral
+1577,B
+1578,B
+1579,Disagree
+1580,A
+1581,D
+1582,Agree
+1583,Agree
+1584,Male
+1585,D
+1586,Agree
+1588,Disagree
+1589,Agree
+1590,"I don't know"
+1591,False
+1593,True
+1594,"Transmissibility rate"
+1595,"I don't know"
+1596,Diabetes
+1598,Monday
+1599,Bachelors
+1600,Neutral
+1601,Disagree
+1602,"Strongly Agree"
+1603,Neutral
+1604,B
+1605,A
+1606,Agree
+1607,A
+1608,A
+1609,Disagree
+1610,Neutral
+1611,Male
+1612,D
+1613,"Strongly Disagree"
+1615,Neutral
+1616,Agree
+1617,Weak
+1618,True
+1620,True
+1621,"Transmissibility rate"
+1622,"All of stated answers"
+1623,Diabetes
+1624,Weak
+1625,True
+1627,True
+1628,"Transmissibility rate"
+1629,"All of stated answers"
+1630,Diabetes
+1631,1
+1632,3
+1633,3
+1634,2
+1636,Monday
+1637,Masters
+1638,Agree
+1639,Neutral
+1640,Neutral
+1641,Neutral
+1642,E
+1643,B
+1644,Neutral
+1645,A
+1646,A
+1647,Disagree
+1648,"Strongly Agree"
+1649,Male
+1650,B
+1651,Neutral
+1653,"Strongly Disagree"
+1654,Agree
+1655,"I don't know"
+1656,"I don't know"
+1658,"I don't know"
+1659,"Transmissibility rate"
+1660,"I don't know"
+1661,Diabetes
+1663,Tuesday
+1664,Masters
+1665,"Strongly Agree"
+1666,Disagree
+1667,"Strongly Disagree"
+1668,Agree
+1669,C
+1670,E
+1671,Disagree
+1672,E
+1673,A
+1674,Neutral
+1675,Agree
+1676,Male
+1677,D
+1678,Neutral
+1680,Disagree
+1681,Agree
+1682,Weak
+1683,True
+1685,True
+1686,"I don't know"
+1687,"All of stated answers"
+1688,Diabetes
+1689,4
+1690,4
+1691,3
+1692,4
+1693,High
+1694,"I don't know"
+1696,True
+1697,"Transmissibility rate"
+1698,"All of stated answers"
+1699,"I don't know"
+1700,Weak
+1701,True
+1703,True
+1704,"The number of susceptible people"
+1705,"All of stated answers"
+1706,"I don't know"
+1707,3
+1708,3
+1709,4
+1710,3
+1712,Monday
+1713,Masters
+1714,Disagree
+1715,Disagree
+1716,Agree
+1717,Disagree
+1718,B
+1719,B
+1720,Neutral
+1721,A
+1722,D
+1723,Disagree
+1724,Agree
+1725,Female
+1726,B
+1727,"Strongly Disagree"
+1729,Disagree
+1730,Disagree
+1731,High
+1732,False
+1734,False
+1735,"Transmissibility rate"
+1736,"A micro-organism"
+1737,Diabetes
+1738,High
+1739,True
+1741,True
+1742,"Transmissibility rate"
+1743,"All of stated answers"
+1744,Diabetes
+1745,2
+1746,3
+1747,3
+1748,3
+1750,Friday
+1751,Bachelors
+1752,Agree
+1753,Agree
+1754,Agree
+1755,Disagree
+1756,B
+1757,B
+1758,Agree
+1759,A
+1760,D
+1761,Disagree
+1762,Agree
+1763,Male
+1764,D
+1765,Agree
+1767,Disagree
+1768,"Strongly Agree"
+1769,Weak
+1770,"I don't know"
+1772,True
+1773,"Transmissibility rate"
+1774,"All of stated answers"
+1775,Diabetes
+1776,Weak
+1777,True
+1779,True
+1780,"Transmissibility rate"
+1781,"All of stated answers"
+1782,Diabetes
+1783,4
+1784,5
+1785,3
+1786,4
+1788,Monday
+1789,Bachelors
+1790,Agree
+1791,Agree
+1792,"Strongly Disagree"
+1793,Agree
+1794,B
+1795,D
+1796,Agree
+1797,A
+1798,D
+1799,Agree
+1800,"Strongly Agree"
+1801,Male
+1802,A
+1803,Disagree
+1805,"Strongly Agree"
+1806,Agree
+1807,High
+1808,False
+1810,"I don't know"
+1811,"Transmissibility rate"
+1812,"I don't know"
+1813,"I don't know"
+1815,Wednesday
+1816,Bachelors
+1817,"Strongly Agree"
+1818,"Strongly Agree"
+1819,Disagree
+1820,Agree
+1821,B
+1822,E
+1823,Agree
+1824,A
+1825,C
+1826,"Strongly Agree"
+1827,Neutral
+1828,Male
+1829,B
+1830,"Strongly Agree"
+1832,Disagree
+1833,Neutral
+1835,Monday
+1836,Masters
+1837,Neutral
+1838,"Strongly Disagree"
+1839,Neutral
+1840,Neutral
+1841,A
+1842,A
+1843,Agree
+1844,A
+1845,A
+1846,Neutral
+1847,Agree
+1848,Female
+1849,A
+1850,Neutral
+1852,Disagree
+1853,Agree
+1855,Monday
+1856,"College student"
+1857,Agree
+1858,Neutral
+1859,Neutral
+1860,Agree
+1861,B
+1862,B
+1863,Neutral
+1864,A
+1865,D
+1866,Neutral
+1867,Disagree
+1868,Male
+1869,D
+1870,"Strongly Agree"
+1872,Disagree
+1873,"Strongly Agree"
+1874,"I don't know"
+1875,True
+1877,False
+1878,"Transmissibility rate"
+1879,"All of stated answers"
+1880,Diabetes
+1882,Monday
+1883,Masters
+1884,Disagree
+1885,Disagree
+1886,Agree
+1887,Disagree
+1888,C
+1889,E
+1890,Agree
+1891,A
+1892,A
+1893,Agree
+1894,"Strongly Agree"
+1895,Male
+1896,B
+1897,"Strongly Agree"
+1899,Neutral
+1900,Neutral
+1901,Weak
+1902,True
+1904,True
+1905,"Transmissibility rate"
+1906,"All of stated answers"
+1907,Diabetes
+1908,1
+1909,2
+1910,3
+1911,2
+1912,Weak
+1913,True
+1915,True
+1916,"Transmissibility rate"
+1917,"All of stated answers"
+1918,Diabetes
+1919,Weak
+1920,True
+1922,True
+1923,"I don't know"
+1924,"All of stated answers"
+1925,Diabetes
+1926,4
+1927,3
+1928,3
+1929,3
+1931,Tuesday
+1932,Masters
+1933,Agree
+1934,Agree
+1935,Disagree
+1936,Agree
+1937,B
+1938,B
+1939,Disagree
+1940,A
+1941,D
+1942,Neutral
+1943,Agree
+1944,Female
+1945,D
+1946,Neutral
+1948,Disagree
+1949,Agree
+1950,"I don't know"
+1951,"I don't know"
+1953,"I don't know"
+1954,"Transmissibility rate"
+1955,"All of stated answers"
+1956,Diabetes
+1957,High
+1958,True
+1960,True
+1961,"Transmissibility rate"
+1962,"A micro-organism"
+1963,Diabetes
+1964,2
+1965,4
+1966,4
+1967,2
+1969,Monday
+1970,Masters
+1971,"Strongly Agree"
+1972,"Strongly Agree"
+1973,Disagree
+1974,"Strongly Agree"
+1975,C
+1976,B
+1977,"Strongly Disagree"
+1978,A
+1979,D
+1980,Agree
+1981,Agree
+1982,Male
+1983,D
+1984,"Strongly Agree"
+1986,Agree
+1987,Agree
+1988,High
+1989,True
+1991,True
+1992,"Transmissibility rate"
+1993,"All of stated answers"
+1994,Measles
+1996,Tuesday
+1997,Bachelors
+1998,Agree
+1999,"Strongly Agree"
+2000,Neutral
+2001,Neutral
+2002,B
+2003,C
+2004,Agree
+2005,A
+2006,D
+2007,Agree
+2008,Agree
+2009,Male
+2010,D
+2011,Agree
+2013,Neutral
+2014,Agree
+2015,High
+2016,True
+2018,True
+2019,"The number of susceptible people"
+2020,"All of stated answers"
+2021,Diabetes
+2022,4
+2023,5
+2024,5
+2025,4
+2026,High
+2027,False
+2029,True
+2030,"I don't know"
+2031,"All of stated answers"
+2032,Diabetes
+2033,High
+2034,False
+2036,True
+2037,"Transmissibility rate"
+2038,"All of stated answers"
+2039,Diabetes
+2040,1
+2041,3
+2042,4
+2043,2
+2045,Monday
+2046,Masters
+2047,Disagree
+2048,Disagree
+2049,Agree
+2050,Neutral
+2051,B
+2052,B
+2053,Agree
+2054,A
+2055,D
+2056,Agree
+2057,"Strongly Agree"
+2058,Male
+2059,D
+2060,Agree
+2062,Agree
+2063,Neutral
+2064,Weak
+2065,False
+2067,True
+2068,"Transmissibility rate"
+2069,"All of stated answers"
+2070,Diabetes
+2071,Weak
+2072,False
+2074,True
+2075,"Transmissibility rate"
+2076,"All of stated answers"
+2077,Diabetes
+2078,2
+2079,4
+2080,4
+2081,3
+2083,Thursday
+2084,"High school graduate"
+2085,Agree
+2086,Agree
+2087,Agree
+2088,Neutral
+2089,B
+2090,B
+2091,"Strongly Disagree"
+2092,A
+2093,D
+2094,Agree
+2095,"Strongly Agree"
+2096,Male
+2097,D
+2098,Agree
+2100,"Strongly Disagree"
+2101,Neutral
+2103,Monday
+2104,Masters
+2105,Neutral
+2106,"Strongly Agree"
+2107,"Strongly Agree"
+2108,Agree
+2109,B
+2110,B
+2111,Agree
+2112,A
+2113,D
+2114,Neutral
+2115,Agree
+2116,Male
+2117,D
+2118,Agree
+2120,"Strongly Agree"
+2121,"Strongly Agree"
+2122,High
+2123,False
+2125,"I don't know"
+2126,"I don't know"
+2127,"I don't know"
+2128,Diabetes
+2129,"I don't know"
+2130,True
+2132,"I don't know"
+2133,"Transmissibility rate"
+2134,"All of stated answers"
+2135,Diabetes
+2136,Weak
+2137,True
+2139,True
+2140,"Transmissibility rate"
+2141,"All of stated answers"
+2142,Diabetes
+2143,1
+2144,2
+2145,3
+2146,2
+2148,Wednesday
+2149,Masters
+2150,Neutral
+2151,Agree
+2152,"Strongly Disagree"
+2153,"Strongly Disagree"
+2154,E
+2155,D
+2156,"Strongly Agree"
+2157,A
+2158,B
+2159,Neutral
+2160,Neutral
+2161,Female
+2162,B
+2163,Agree
+2165,"Strongly Agree"
+2166,"Strongly Agree"
+2168,Monday
+2169,"High school graduate"
+2170,"Strongly Agree"
+2171,Agree
+2172,Agree
+2173,"Strongly Agree"
+2174,A
+2175,A
+2176,Disagree
+2177,A
+2178,A
+2179,Agree
+2180,Agree
+2181,Male
+2182,D
+2183,Agree
+2185,Disagree
+2186,Agree
+2187,High
+2188,"I don't know"
+2190,True
+2191,"Transmissibility rate"
+2192,"All of stated answers"
+2193,Diabetes
+2194,High
+2195,True
+2197,True
+2198,"The number of susceptible people"
+2199,"A micro-organism"
+2200,Diabetes
+2201,4
+2202,3
+2203,4
+2204,2
+2206,Monday
+2207,Bachelors
+2208,Neutral
+2209,Neutral
+2210,Agree
+2211,Disagree
+2212,B
+2213,B
+2214,Agree
+2215,A
+2216,D
+2217,Disagree
+2218,Agree
+2219,Male
+2220,D
+2221,Disagree
+2223,Disagree
+2224,"Strongly Disagree"
+2225,Weak
+2226,"I don't know"
+2228,"I don't know"
+2229,"Transmissibility rate"
+2230,"All of stated answers"
+2231,Diabetes
+2232,Weak
+2233,"I don't know"
+2235,"I don't know"
+2236,"I don't know"
+2237,"All of stated answers"
+2238,Diabetes
+2240,Monday
+2241,Bachelors
+2242,Agree
+2243,Agree
+2244,Agree
+2245,Agree
+2246,B
+2247,B
+2248,Neutral
+2249,A
+2250,D
+2251,Disagree
+2252,Agree
+2253,Male
+2254,D
+2255,Agree
+2257,"Strongly Disagree"
+2258,Agree
+2259,"I don't know"
+2260,"I don't know"
+2262,"I don't know"
+2263,"Transmissibility rate"
+2264,"I don't know"
+2265,Diabetes
+2267,Monday
+2268,"College student"
+2269,Neutral
+2270,Neutral
+2271,Neutral
+2272,Neutral
+2273,B
+2274,B
+2275,Agree
+2276,A
+2277,E
+2278,Disagree
+2279,Disagree
+2280,Female
+2281,B
+2282,"Strongly Agree"
+2284,"Strongly Disagree"
+2285,"Strongly Agree"
+2286,Weak
+2287,True
+2289,"I don't know"
+2290,"Transmissibility rate"
+2291,"All of stated answers"
+2292,"I don't know"
+2293,High
+2294,True
+2296,True
+2297,"Transmissibility rate"
+2298,"A micro-organism"
+2299,Diabetes
+2300,5
+2301,4
+2302,2
+2303,1
+2305,Monday
+2306,Masters
+2307,"Strongly Agree"
+2308,Neutral
+2309,Disagree
+2310,Agree
+2311,B
+2312,B
+2313,Neutral
+2314,A
+2315,D
+2316,Agree
+2317,Agree
+2318,Female
+2319,D
+2320,Neutral
+2322,Disagree
+2323,Disagree
+2324,"I don't know"
+2325,"I don't know"
+2327,"I don't know"
+2328,"Transmissibility rate"
+2329,"I don't know"
+2330,Diabetes
+2331,Weak
+2332,"I don't know"
+2334,"I don't know"
+2335,"I don't know"
+2336,"I don't know"
+2337,Diabetes
+2338,2
+2339,4
+2340,3
+2341,4
+2343,Thursday
+2344,Doctorate
+2345,"Strongly Agree"
+2346,Agree
+2347,"Strongly Agree"
+2348,Agree
+2349,B
+2350,B
+2351,Agree
+2352,A
+2353,D
+2354,Neutral
+2355,Disagree
+2356,Female
+2357,D
+2358,Neutral
+2360,Disagree
+2361,Disagree
+2362,Weak
+2363,False
+2365,True
+2366,"Transmissibility rate"
+2367,"All of stated answers"
+2368,Diabetes
+2369,Weak
+2370,False
+2372,True
+2373,"Transmissibility rate"
+2374,"All of stated answers"
+2375,Diabetes
+2376,1
+2377,2
+2378,4
+2379,1
+2381,Monday
+2382,"College student"
+2383,"Strongly Agree"
+2384,"Strongly Agree"
+2385,Agree
+2386,"Strongly Agree"
+2387,B
+2388,C
+2389,Neutral
+2390,E
+2391,A
+2392,Agree
+2393,"Strongly Agree"
+2394,Female
+2395,B
+2396,"Strongly Disagree"
+2398,Agree
+2399,Neutral
+2401,Friday
+2402,"High school graduate"
+2403,"Strongly Agree"
+2404,Disagree
+2405,Neutral
+2406,Neutral
+2407,A
+2408,A
+2409,Disagree
+2410,A
+2411,A
+2412,Agree
+2413,"Strongly Agree"
+2414,Male
+2415,B
+2416,"Strongly Disagree"
+2418,"Strongly Agree"
+2419,Disagree
+2420,High
+2421,"I don't know"
+2423,False
+2424,"Transmissibility rate"
+2425,"Environmental cause"
+2426,Diabetes
+2427,High
+2428,False
+2430,False
+2431,"Transmissibility rate"
+2432,"Environmental cause"
+2433,Diabetes
+2434,1
+2435,5
+2436,1
+2437,5
+2439,Thursday
+2440,Doctorate
+2441,"Strongly Agree"
+2442,"Strongly Agree"
+2443,Agree
+2444,Agree
+2445,B
+2446,D
+2447,Agree
+2448,A
+2449,D
+2450,"Strongly Agree"
+2451,Agree
+2452,Female
+2453,E
+2454,Disagree
+2456,Agree
+2457,Neutral
+2458,Weak
+2459,False
+2461,True
+2462,"I don't know"
+2463,"A micro-organism"
+2464,Measles
+2466,Wednesday
+2467,Masters
+2468,Agree
+2469,Neutral
+2470,"Strongly Agree"
+2471,"Strongly Agree"
+2472,B
+2473,E
+2474,Agree
+2475,A
+2476,D
+2477,Agree
+2478,"Strongly Agree"
+2479,Male
+2480,D
+2481,Disagree
+2483,"Strongly Agree"
+2484,"Strongly Disagree"
+2485,Weak
+2486,False
+2488,True
+2489,"I don't know"
+2490,"A micro-organism"
+2491,Measles
+2493,Tuesday
+2494,"High school graduate"
+2495,Disagree
+2496,Disagree
+2497,"Strongly Agree"
+2498,Disagree
+2499,B
+2500,E
+2501,"Strongly Agree"
+2502,A
+2503,C
+2504,Neutral
+2505,Agree
+2506,Male
+2507,D
+2508,Agree
+2510,Neutral
+2511,Agree
+2512,Weak
+2513,False
+2515,True
+2516,"Transmissibility rate"
+2517,"Environmental cause"
+2518,Diabetes
+2519,High
+2520,False
+2522,True
+2523,"Transmissibility rate"
+2524,"Environmental cause"
+2525,Diabetes
+2526,3
+2527,4
+2528,5
+2529,3
+2530,High
+2531,False
+2533,True
+2534,"Transmissibility rate"
+2535,"A micro-organism"
+2536,Diabetes
+2537,2
+2538,1
+2539,4
+2540,4
+2542,Tuesday
+2543,Bachelors
+2544,Agree
+2545,Neutral
+2546,Neutral
+2547,Agree
+2548,B
+2549,B
+2550,Neutral
+2551,A
+2552,A
+2553,Neutral
+2554,Neutral
+2555,Male
+2556,D
+2557,Disagree
+2559,Disagree
+2560,Agree
+2561,High
+2562,False
+2564,True
+2565,"Transmissibility rate"
+2566,"A micro-organism"
+2567,Diabetes
+2568,High
+2569,False
+2571,True
+2572,"Transmissibility rate"
+2573,"A micro-organism"
+2574,Diabetes
+2575,2
+2576,4
+2577,4
+2578,3
+2580,Tuesday
+2581,"High school graduate"
+2582,Neutral
+2583,Disagree
+2584,Neutral
+2585,Agree
+2586,B
+2587,B
+2588,Neutral
+2589,A
+2590,D
+2591,Neutral
+2592,Neutral
+2593,Male
+2594,D
+2595,Disagree
+2597,Disagree
+2598,Disagree
+2599,High
+2600,True
+2602,True
+2603,"Transmissibility rate"
+2604,"All of stated answers"
+2605,Diabetes
+2606,High
+2607,False
+2609,True
+2610,"Transmissibility rate"
+2611,"A micro-organism"
+2612,Diabetes
+2613,1
+2614,2
+2615,3
+2616,1
+2618,Tuesday
+2619,Bachelors
+2620,Disagree
+2621,Agree
+2622,Neutral
+2623,Neutral
+2624,B
+2625,B
+2626,Disagree
+2627,A
+2628,D
+2629,Disagree
+2630,Agree
+2631,Female
+2632,D
+2633,Neutral
+2635,Disagree
+2636,Agree
+2637,High
+2638,True
+2640,True
+2641,"Transmissibility rate"
+2642,"A micro-organism"
+2643,Plague
+2645,Tuesday
+2646,Masters
+2647,"Strongly Agree"
+2648,"Strongly Agree"
+2649,"Strongly Disagree"
+2650,"Strongly Agree"
+2651,B
+2652,B
+2653,"Strongly Disagree"
+2654,A
+2655,D
+2656,Agree
+2657,"Strongly Agree"
+2658,Male
+2659,D
+2660,Neutral
+2662,Agree
+2663,Agree
+2664,High
+2665,False
+2667,True
+2668,"Transmissibility rate"
+2669,"A micro-organism"
+2670,Plague
+2671,1
+2672,1
+2673,4
+2674,1
+2676,Wednesday
+2677,Bachelors
+2678,Agree
+2679,Neutral
+2680,"Strongly Agree"
+2681,Neutral
+2682,B
+2683,B
+2684,Disagree
+2685,A
+2686,D
+2687,"Strongly Agree"
+2688,Agree
+2689,Female
+2690,D
+2691,Neutral
+2693,Agree
+2694,Neutral
+2695,High
+2696,False
+2698,True
+2699,"Transmissibility rate"
+2700,"All of stated answers"
+2701,Diabetes
+2703,Monday
+2704,Masters
+2705,"Strongly Agree"
+2706,Agree
+2707,Neutral
+2708,Agree
+2709,B
+2710,B
+2711,Disagree
+2712,A
+2713,D
+2714,Agree
+2715,Neutral
+2716,Male
+2717,D
+2718,Disagree
+2720,Agree
+2721,"Strongly Disagree"
+2722,Weak
+2723,False
+2725,True
+2726,"Transmissibility rate"
+2727,"All of stated answers"
+2728,Diabetes
+2730,Monday
+2731,Masters
+2732,Agree
+2733,"Strongly Agree"
+2734,Disagree
+2735,"Strongly Agree"
+2736,A
+2737,B
+2738,"Strongly Disagree"
+2739,E
+2740,A
+2741,Agree
+2742,"Strongly Agree"
+2743,Male
+2744,B
+2745,Disagree
+2747,"Strongly Agree"
+2748,Agree
+2750,Thursday
+2751,Bachelors
+2752,Disagree
+2753,Disagree
+2754,Agree
+2755,Agree
+2756,B
+2757,B
+2758,Agree
+2759,A
+2760,D
+2761,Disagree
+2762,"Strongly Agree"
+2763,Female
+2764,D
+2765,Agree
+2767,Agree
+2768,"Strongly Agree"
+2770,Monday
+2771,Bachelors
+2772,Agree
+2773,Disagree
+2774,Agree
+2775,Disagree
+2776,B
+2777,B
+2778,Agree
+2779,A
+2780,D
+2781,Agree
+2782,Agree
+2783,Male
+2784,D
+2785,Agree
+2787,Disagree
+2788,Agree
+2789,Weak
+2790,"I don't know"
+2792,True
+2793,"Transmissibility rate"
+2794,"I don't know"
+2795,"I don't know"
+2796,Weak
+2797,True
+2799,True
+2800,"Transmissibility rate"
+2801,"All of stated answers"
+2802,Diabetes
+2803,2
+2804,4
+2805,4
+2806,3
+2808,Tuesday
+2809,"College student"
+2810,Disagree
+2811,Agree
+2812,Disagree
+2813,"Strongly Agree"
+2814,B
+2815,B
+2816,Disagree
+2817,A
+2818,D
+2819,Agree
+2820,Agree
+2821,Female
+2822,D
+2823,Disagree
+2825,Neutral
+2826,"Strongly Agree"
+2827,High
+2828,"I don't know"
+2830,True
+2831,"Transmissibility rate"
+2832,"All of stated answers"
+2833,Diabetes
+2834,Weak
+2835,True
+2837,True
+2838,"The number of susceptible people"
+2839,"All of stated answers"
+2840,Diabetes
+2841,1
+2842,3
+2843,5
+2844,3
+2845,Weak
+2846,False
+2848,True
+2849,"Transmissibility rate"
+2850,"All of stated answers"
+2851,Diabetes
+2852,3
+2853,3
+2854,2
+2855,3
+2857,Monday
+2858,Masters
+2859,"Strongly Agree"
+2860,Agree
+2861,Disagree
+2862,Agree
+2863,B
+2864,B
+2865,Neutral
+2866,A
+2867,D
+2868,Agree
+2869,Agree
+2870,Male
+2871,D
+2872,"Strongly Disagree"
+2874,Agree
+2875,Disagree
+2876,High
+2877,True
+2879,False
+2880,"The number of susceptible people"
+2881,"All of stated answers"
+2882,Diabetes
+2884,Monday
+2885,Masters
+2886,Agree
+2887,Agree
+2888,Neutral
+2889,Agree
+2890,B
+2891,B
+2892,Neutral
+2893,A
+2894,D
+2895,Disagree
+2896,Neutral
+2897,Male
+2898,D
+2899,Disagree
+2901,"Strongly Disagree"
+2902,Agree
+2904,Monday
+2905,Masters
+2906,Neutral
+2907,Neutral
+2908,"Strongly Agree"
+2909,Neutral
+2910,B
+2911,B
+2912,Neutral
+2913,A
+2914,C
+2915,Neutral
+2916,Neutral
+2917,Female
+2918,C
+2919,Agree
+2921,Neutral
+2922,Agree
+2923,High
+2924,True
+2926,True
+2927,"Transmissibility rate"
+2928,"All of stated answers"
+2929,Diabetes
+2930,Weak
+2931,False
+2933,True
+2934,"Transmissibility rate"
+2935,"I don't know"
+2936,"I don't know"
+2938,Monday
+2939,Masters
+2940,"Strongly Agree"
+2941,Agree
+2942,"Strongly Disagree"
+2943,"Strongly Agree"
+2944,B
+2945,B
+2946,"Strongly Disagree"
+2947,A
+2948,D
+2949,Neutral
+2950,Disagree
+2951,Female
+2952,D
+2953,Neutral
+2955,Agree
+2956,Agree
+2957,Weak
+2958,"I don't know"
+2960,True
+2961,"Transmissibility rate"
+2962,"All of stated answers"
+2963,Diabetes
+2964,3
+2965,4
+2966,3
+2967,4
+2969,Tuesday
+2970,Bachelors
+2971,Disagree
+2972,Agree
+2973,"Strongly Agree"
+2974,Neutral
+2975,B
+2976,B
+2977,Neutral
+2978,A
+2979,D
+2980,Agree
+2981,"Strongly Agree"
+2982,Male
+2983,D
+2984,Agree
+2986,"Strongly Disagree"
+2987,"Strongly Agree"
+2988,"I don't know"
+2989,"I don't know"
+2991,"I don't know"
+2992,"Transmissibility rate"
+2993,"I don't know"
+2994,"I don't know"
+2995,Weak
+2996,True
+2998,True
+2999,"Transmissibility rate"
+3000,"All of stated answers"
+3001,Diabetes
+3002,Weak
+3003,True
+3005,True
+3006,"Transmissibility rate"
+3007,"All of stated answers"
+3008,Diabetes
+3009,3
+3010,2
+3011,4
+3012,3
+3014,Monday
+3015,Masters
+3016,Agree
+3017,Neutral
+3018,"Strongly Disagree"
+3019,Agree
+3020,B
+3021,B
+3022,Disagree
+3023,A
+3024,D
+3025,Neutral
+3026,"Strongly Agree"
+3027,Female
+3028,D
+3029,Disagree
+3031,"Strongly Agree"
+3032,Agree
+3033,High
+3034,False
+3036,True
+3037,"Transmissibility rate"
+3038,"A micro-organism"
+3039,"I don't know"
+3040,High
+3041,False
+3043,True
+3044,"Transmissibility rate"
+3045,"A micro-organism"
+3046,Diabetes
+3047,2
+3048,3
+3049,4
+3050,3
+3052,Monday
+3053,Masters
+3054,Agree
+3055,Agree
+3056,"Strongly Disagree"
+3057,"Strongly Agree"
+3058,B
+3059,B
+3060,Disagree
+3061,A
+3062,D
+3063,Agree
+3064,Agree
+3065,Female
+3066,D
+3067,Disagree
+3069,Agree
+3070,Disagree
+3072,Monday
+3073,Bachelors
+3074,Agree
+3075,Neutral
+3076,Agree
+3077,Agree
+3078,B
+3079,B
+3080,Disagree
+3081,A
+3082,D
+3083,Disagree
+3084,"Strongly Agree"
+3085,Female
+3086,D
+3087,Disagree
+3089,"Strongly Disagree"
+3090,"Strongly Disagree"
+3092,Monday
+3093,Masters
+3094,"Strongly Agree"
+3095,"Strongly Agree"
+3096,Disagree
+3097,Agree
+3098,B
+3099,B
+3100,Disagree
+3101,A
+3102,D
+3103,Agree
+3104,Agree
+3105,Male
+3106,D
+3107,Agree
+3109,Neutral
+3110,Agree
+3111,Weak
+3112,True
+3114,True
+3115,"Transmissibility rate"
+3116,"All of stated answers"
+3117,Diabetes
+3119,Monday
+3120,Doctorate
+3121,Agree
+3122,Disagree
+3123,Neutral
+3124,Agree
+3125,B
+3126,B
+3127,"Strongly Disagree"
+3128,A
+3129,D
+3130,Agree
+3131,Agree
+3132,Female
+3133,D
+3134,Neutral
+3136,"Strongly Agree"
+3137,"Strongly Agree"
+3138,Weak
+3139,True
+3141,True
+3142,"Transmissibility rate"
+3143,"All of stated answers"
+3144,Diabetes
+3145,Weak
+3146,True
+3148,True
+3149,"Transmissibility rate"
+3150,"All of stated answers"
+3151,Diabetes
+3152,High
+3153,False
+3155,False
+3156,"Transmissibility rate"
+3157,"All of stated answers"
+3158,Diabetes
+3159,2
+3160,3
+3161,4
+3162,1
+3164,Monday
+3165,Bachelors
+3166,"Strongly Agree"
+3167,Agree
+3168,Disagree
+3169,"Strongly Agree"
+3170,B
+3171,B
+3172,Disagree
+3173,A
+3174,D
+3175,"Strongly Agree"
+3176,Agree
+3177,Male
+3178,D
+3179,"Strongly Disagree"
+3181,"Strongly Disagree"
+3182,Neutral
+3183,High
+3184,False
+3186,"I don't know"
+3187,"Transmissibility rate"
+3188,"A micro-organism"
+3189,Diabetes
+3191,Monday
+3192,Doctorate
+3193,"Strongly Agree"
+3194,Agree
+3195,Disagree
+3196,Agree
+3197,B
+3198,B
+3199,Disagree
+3200,B
+3201,D
+3202,Disagree
+3203,Neutral
+3204,Male
+3205,D
+3206,Agree
+3208,Neutral
+3209,Neutral
+3211,Monday
+3212,Masters
+3213,Neutral
+3214,Disagree
+3215,Agree
+3216,Neutral
+3217,B
+3218,B
+3219,Agree
+3220,A
+3221,D
+3222,Disagree
+3223,Disagree
+3224,Male
+3225,D
+3226,Disagree
+3228,Neutral
+3229,Agree
+3231,Monday
+3232,Masters
+3233,Agree
+3234,Disagree
+3235,Neutral
+3236,Agree
+3237,B
+3238,B
+3239,Disagree
+3240,A
+3241,A
+3242,Agree
+3243,Agree
+3244,Male
+3245,D
+3246,Agree
+3248,Agree
+3249,Disagree
+3250,High
+3251,False
+3253,True
+3254,"Transmissibility rate"
+3255,"All of stated answers"
+3256,"I don't know"
+3257,"I don't know"
+3258,True
+3260,True
+3261,"Transmissibility rate"
+3262,"I don't know"
+3263,Diabetes
+3264,Weak
+3265,True
+3267,True
+3268,"Transmissibility rate"
+3269,"A micro-organism"
+3270,Diabetes
+3271,Weak
+3272,True
+3274,True
+3275,"Transmissibility rate"
+3276,"All of stated answers"
+3277,"I don't know"
+3278,2
+3279,3
+3280,2
+3281,3
+3282,Weak
+3283,True
+3285,True
+3286,"Transmissibility rate"
+3287,"A micro-organism"
+3288,"I don't know"
+3290,Monday
+3291,Masters
+3292,Neutral
+3293,Disagree
+3294,Disagree
+3295,Agree
+3296,B
+3297,B
+3298,Neutral
+3299,A
+3300,D
+3301,Agree
+3302,"Strongly Agree"
+3303,Male
+3304,D
+3305,Agree
+3307,Agree
+3308,Disagree
+3309,High
+3310,False
+3312,False
+3313,"Transmissibility rate"
+3314,"All of stated answers"
+3315,Diabetes
+3316,High
+3317,True
+3319,True
+3320,"Transmissibility rate"
+3321,"A micro-organism"
+3322,Diabetes
+3323,1
+3324,3
+3325,3
+3326,2
+3327,Weak
+3328,True
+3330,True
+3331,"Transmissibility rate"
+3332,"All of stated answers"
+3333,Diabetes
+3334,1
+3335,3
+3336,4
+3337,4
+3339,Monday
+3340,Bachelors
+3341,Disagree
+3342,"Strongly Disagree"
+3343,Neutral
+3344,Neutral
+3345,B
+3346,B
+3347,Agree
+3348,A
+3349,D
+3350,Neutral
+3351,Agree
+3352,Male
+3353,D
+3354,"Strongly Agree"
+3356,"Strongly Disagree"
+3357,Agree
+3358,High
+3359,True
+3361,True
+3362,"Transmissibility rate"
+3363,"All of stated answers"
+3364,Diabetes
+3366,Monday
+3367,Masters
+3368,Agree
+3369,Agree
+3370,Neutral
+3371,Agree
+3372,B
+3373,B
+3374,Agree
+3375,A
+3376,D
+3377,Agree
+3378,Agree
+3379,Male
+3380,D
+3381,Neutral
+3383,Disagree
+3384,Neutral
+3385,High
+3386,False
+3388,True
+3389,"Transmissibility rate"
+3390,"All of stated answers"
+3391,Diabetes
+3392,Weak
+3393,False
+3395,True
+3396,"Transmissibility rate"
+3397,"All of stated answers"
+3398,Diabetes
+3399,1
+3400,2
+3401,5
+3402,3
+3404,Thursday
+3405,Masters
+3406,Neutral
+3407,"Strongly Agree"
+3408,Disagree
+3409,Neutral
+3410,E
+3411,C
+3412,Neutral
+3413,A
+3414,D
+3415,Agree
+3416,"Strongly Disagree"
+3417,Male
+3418,D
+3419,Disagree
+3421,Neutral
+3422,"Strongly Disagree"
+3423,Weak
+3424,"I don't know"
+3426,False
+3427,"The number of susceptible people"
+3428,"Environmental cause"
+3429,Diabetes
+3430,High
+3431,False
+3433,True
+3434,"Transmissibility rate"
+3435,"A micro-organism"
+3436,Diabetes
+3437,1
+3438,2
+3439,3
+3440,4
+3442,Monday
+3443,Masters
+3444,Agree
+3445,"Strongly Agree"
+3446,Neutral
+3447,Agree
+3448,B
+3449,B
+3450,Neutral
+3451,A
+3452,D
+3453,Neutral
+3454,"Strongly Agree"
+3455,Male
+3456,D
+3457,Agree
+3459,Neutral
+3460,Agree
+3461,High
+3462,False
+3464,True
+3465,"Transmissibility rate"
+3466,"All of stated answers"
+3467,Diabetes
+3468,High
+3469,False
+3471,True
+3472,"Transmissibility rate"
+3473,"All of stated answers"
+3474,Diabetes
+3475,2
+3476,3
+3477,3
+3478,3
+3480,Thursday
+3481,"College student"
+3482,Agree
+3483,Neutral
+3484,"Strongly Agree"
+3485,Disagree
+3486,C
+3487,C
+3488,Disagree
+3489,C
+3490,D
+3491,Neutral
+3492,Agree
+3493,Male
+3494,B
+3495,"Strongly Disagree"
+3497,Disagree
+3498,Agree
+3499,High
+3500,"I don't know"
+3502,True
+3503,"Transmissibility rate"
+3504,"A micro-organism"
+3505,Diabetes
+3506,High
+3507,True
+3509,True
+3510,"The number of susceptible people"
+3511,"All of stated answers"
+3512,Diabetes
+3513,4
+3514,4
+3515,3
+3516,3
+3518,Monday
+3519,Masters
+3520,Neutral
+3521,Disagree
+3522,Agree
+3523,Disagree
+3524,B
+3525,B
+3526,"Strongly Agree"
+3527,A
+3528,D
+3529,Agree
+3530,Agree
+3531,Female
+3532,D
+3533,Disagree
+3535,Disagree
+3536,"Strongly Disagree"
+3537,"I don't know"
+3538,"I don't know"
+3540,"I don't know"
+3541,"Transmissibility rate"
+3542,"I don't know"
+3543,"I don't know"
+3545,Monday
+3546,Masters
+3547,Disagree
+3548,Agree
+3549,"Strongly Disagree"
+3550,Agree
+3551,B
+3552,B
+3553,"Strongly Disagree"
+3554,A
+3555,D
+3556,Neutral
+3557,Agree
+3558,Male
+3559,D
+3560,"Strongly Agree"
+3562,Disagree
+3563,"Strongly Disagree"
+3564,High
+3565,False
+3567,True
+3568,"Transmissibility rate"
+3569,"All of stated answers"
+3570,Diabetes
+3571,High
+3572,True
+3574,True
+3575,"Transmissibility rate"
+3576,"All of stated answers"
+3577,Diabetes
+3578,3
+3579,5
+3580,4
+3581,3
+3583,Monday
+3584,Masters
+3585,Agree
+3586,Neutral
+3587,"Strongly Disagree"
+3588,"Strongly Agree"
+3589,B
+3590,B
+3591,"Strongly Disagree"
+3592,A
+3593,D
+3594,Neutral
+3595,Agree
+3596,Male
+3597,D
+3598,"Strongly Agree"
+3600,Agree
+3601,Agree
+3602,High
+3603,"I don't know"
+3605,True
+3606,"Transmissibility rate"
+3607,"All of stated answers"
+3608,Diabetes
+3609,High
+3610,True
+3612,True
+3613,"Transmissibility rate"
+3614,"All of stated answers"
+3615,Diabetes
+3616,1
+3617,4
+3618,2
+3619,4
+3621,Monday
+3622,"High school graduate"
+3623,"Strongly Agree"
+3624,Neutral
+3625,"Strongly Disagree"
+3626,Agree
+3627,B
+3628,B
+3629,Neutral
+3630,A
+3631,D
+3632,Disagree
+3633,Disagree
+3634,Male
+3635,D
+3636,Disagree
+3638,"Strongly Disagree"
+3639,Neutral
+3640,"I don't know"
+3641,"I don't know"
+3643,"I don't know"
+3644,"Transmissibility rate"
+3645,"All of stated answers"
+3646,Diabetes
+3648,Monday
+3649,Bachelors
+3650,Disagree
+3651,Agree
+3652,Neutral
+3653,Neutral
+3654,B
+3655,B
+3656,Neutral
+3657,A
+3658,D
+3659,Agree
+3660,Agree
+3661,Male
+3662,B
+3663,Disagree
+3665,Neutral
+3666,Agree
+3667,Weak
+3668,"I don't know"
+3670,True
+3671,"Transmissibility rate"
+3672,"All of stated answers"
+3673,Diabetes
+3674,High
+3675,False
+3677,True
+3678,"Transmissibility rate"
+3679,"All of stated answers"
+3680,Diabetes
+3681,1
+3682,4
+3683,3
+3684,2
+3686,Monday
+3687,Masters
+3688,"Strongly Agree"
+3689,Agree
+3690,Neutral
+3691,Disagree
+3692,B
+3693,B
+3694,Neutral
+3695,A
+3696,D
+3697,Agree
+3698,"Strongly Agree"
+3699,Male
+3700,D
+3701,Neutral
+3703,Disagree
+3704,Neutral
+3705,Weak
+3706,False
+3708,True
+3709,"Transmissibility rate"
+3710,"All of stated answers"
+3711,Measles
+3712,High
+3713,False
+3715,True
+3716,"Transmissibility rate"
+3717,"All of stated answers"
+3718,Measles
+3719,4
+3720,4
+3721,3
+3722,2
+3724,Monday
+3725,Masters
+3726,Agree
+3727,Neutral
+3728,Neutral
+3729,"Strongly Agree"
+3730,B
+3731,B
+3732,"Strongly Disagree"
+3733,A
+3734,D
+3735,Neutral
+3736,Agree
+3737,Female
+3738,D
+3739,Neutral
+3741,Agree
+3742,"Strongly Agree"
+3743,High
+3744,True
+3746,True
+3747,"Transmissibility rate"
+3748,"A micro-organism"
+3749,Diabetes
+3750,High
+3751,False
+3753,True
+3754,"Transmissibility rate"
+3755,"All of stated answers"
+3756,Diabetes
+3757,1
+3758,2
+3759,3
+3760,1
+3762,Thursday
+3763,Doctorate
+3764,Agree
+3765,Disagree
+3766,Agree
+3767,Agree
+3768,B
+3769,B
+3770,Agree
+3771,A
+3772,D
+3773,Agree
+3774,Agree
+3775,Female
+3776,A
+3777,Disagree
+3779,Agree
+3780,Disagree
+3781,Weak
+3782,True
+3784,False
+3785,"Transmissibility rate"
+3786,"All of stated answers"
+3787,Diabetes
+3788,Weak
+3789,False
+3791,False
+3792,"The number of susceptible people"
+3793,"All of stated answers"
+3794,Diabetes
+3795,5
+3796,4
+3797,4
+3798,2
+3800,Monday
+3801,Doctorate
+3802,Neutral
+3803,Agree
+3804,Neutral
+3805,Disagree
+3806,B
+3807,B
+3808,Agree
+3809,A
+3810,A
+3811,Neutral
+3812,"Strongly Agree"
+3813,Male
+3814,B
+3815,Neutral
+3817,Agree
+3818,Neutral
+3819,High
+3820,False
+3822,True
+3823,"Transmissibility rate"
+3824,"A micro-organism"
+3825,Diabetes
+3826,High
+3827,True
+3829,False
+3830,"The number of susceptible people"
+3831,"Environmental cause"
+3832,Diabetes
+3833,2
+3834,3
+3835,2
+3836,2
+3838,Monday
+3839,Bachelors
+3840,Agree
+3841,Disagree
+3842,Agree
+3843,Agree
+3844,B
+3845,B
+3846,Neutral
+3847,A
+3848,D
+3849,Neutral
+3850,Agree
+3851,Male
+3852,D
+3853,Agree
+3855,Disagree
+3856,Agree
+3857,Weak
+3858,"I don't know"
+3860,True
+3861,"Transmissibility rate"
+3862,"I don't know"
+3863,Diabetes
+3865,Monday
+3866,Masters
+3867,Agree
+3868,Neutral
+3869,Neutral
+3870,Agree
+3871,B
+3872,B
+3873,Disagree
+3874,A
+3875,D
+3876,"Strongly Disagree"
+3877,"Strongly Agree"
+3878,Male
+3879,C
+3880,Neutral
+3882,"Strongly Agree"
+3883,Agree
+3884,Weak
+3885,True
+3887,True
+3888,"Transmissibility rate"
+3889,"All of stated answers"
+3890,Diabetes
+3891,2
+3892,5
+3893,4
+3894,4
+3895,High
+3896,False
+3898,True
+3899,"Transmissibility rate"
+3900,"All of stated answers"
+3901,Diabetes
+3902,High
+3903,False
+3905,True
+3906,"Transmissibility rate"
+3907,"All of stated answers"
+3908,Diabetes
+3910,Monday
+3911,Masters
+3912,Agree
+3913,Neutral
+3914,Neutral
+3915,Agree
+3916,B
+3917,B
+3918,Disagree
+3919,A
+3920,D
+3921,"Strongly Disagree"
+3922,"Strongly Agree"
+3923,Male
+3924,C
+3925,Neutral
+3927,"Strongly Agree"
+3928,Agree
+3929,High
+3930,False
+3932,True
+3933,"Transmissibility rate"
+3934,"All of stated answers"
+3935,Diabetes
+3936,1
+3937,4
+3938,4
+3939,4
+3941,Monday
+3942,Doctorate
+3943,Agree
+3944,Agree
+3945,Agree
+3946,Agree
+3947,B
+3948,B
+3949,Agree
+3950,A
+3951,D
+3952,Agree
+3953,Agree
+3954,Male
+3955,D
+3956,"Strongly Agree"
+3958,"Strongly Agree"
+3959,Disagree
+3960,High
+3961,False
+3963,True
+3964,"Transmissibility rate"
+3965,"Environmental cause"
+3966,Measles
+3967,High
+3968,True
+3970,True
+3971,"Transmissibility rate"
+3972,"All of stated answers"
+3973,Measles
+3974,4
+3975,4
+3976,4
+3977,4
+3979,Tuesday
+3980,Masters
+3981,Agree
+3982,Agree
+3983,Neutral
+3984,Neutral
+3985,B
+3986,B
+3987,Agree
+3988,A
+3989,D
+3990,Agree
+3991,Agree
+3992,Male
+3993,D
+3994,Agree
+3996,Agree
+3997,Agree
+3998,High
+3999,False
+4001,True
+4002,"Transmissibility rate"
+4003,"All of stated answers"
+4004,Diabetes
+4005,Weak
+4006,True
+4008,True
+4009,"Transmissibility rate"
+4010,"All of stated answers"
+4011,Diabetes
+4012,1
+4013,4
+4014,4
+4015,3
+4017,Wednesday
+4018,"High school graduate"
+4019,Neutral
+4020,Neutral
+4021,Agree
+4022,Neutral
+4023,B
+4024,C
+4025,Agree
+4026,A
+4027,D
+4028,Agree
+4029,Agree
+4030,Male
+4031,D
+4032,"Strongly Disagree"
+4034,Agree
+4035,Agree
+4036,High
+4037,True
+4039,True
+4040,"Transmissibility rate"
+4041,"A micro-organism"
+4042,Ebola
+4044,Friday
+4045,Masters
+4046,Neutral
+4047,"Strongly Disagree"
+4048,Neutral
+4049,Neutral
+4050,E
+4051,B
+4052,Neutral
+4053,A
+4054,C
+4055,Neutral
+4056,Neutral
+4057,Female
+4058,C
+4059,Disagree
+4061,"Strongly Disagree"
+4062,Disagree
+4063,High
+4064,True
+4066,"I don't know"
+4067,"I don't know"
+4068,"I don't know"
+4069,"I don't know"
+4070,High
+4071,True
+4073,True
+4074,"Transmissibility rate"
+4075,"A micro-organism"
+4076,"I don't know"
+4077,5
+4078,5
+4079,5
+4080,5
+4082,Thursday
+4083,Bachelors
+4084,Neutral
+4085,Disagree
+4086,Neutral
+4087,Neutral
+4088,C
+4089,E
+4090,Disagree
+4091,A
+4092,D
+4093,Neutral
+4094,Agree
+4095,Male
+4096,B
+4097,Neutral
+4099,Neutral
+4100,Neutral
+4101,"I don't know"
+4102,True
+4104,"I don't know"
+4105,"I don't know"
+4106,"All of stated answers"
+4107,"I don't know"
+4109,Friday
+4110,"Haven't graduated high school"
+4111,Disagree
+4112,Agree
+4113,"Strongly Agree"
+4114,"Strongly Agree"
+4115,B
+4116,B
+4117,"Strongly Agree"
+4118,A
+4119,D
+4120,Agree
+4121,Agree
+4122,Male
+4123,D
+4124,Disagree
+4126,Agree
+4127,Neutral
+4128,High
+4129,True
+4131,True
+4132,"Duration of the disease"
+4133,"A micro-organism"
+4134,Cholera
+4135,1
+4136,4
+4137,4
+4138,4
+4140,Wednesday
+4141,"College student"
+4142,Agree
+4143,Neutral
+4144,Neutral
+4145,Neutral
+4146,B
+4147,C
+4148,Disagree
+4149,A
+4150,C
+4151,Neutral
+4152,Agree
+4153,Female
+4154,B
+4155,Disagree
+4157,Neutral
+4158,Disagree
+4159,Weak
+4160,False
+4162,True
+4163,"Duration of the disease"
+4164,"All of stated answers"
+4165,Measles
+4166,Weak
+4167,False
+4169,True
+4170,"I don't know"
+4171,"All of stated answers"
+4172,Measles
+4173,3
+4174,3
+4175,3
+4176,3
+4178,Friday
+4179,Apprenticeship
+4180,Agree
+4181,Disagree
+4182,"Strongly Agree"
+4183,Agree
+4184,B
+4185,C
+4186,"Strongly Agree"
+4187,E
+4188,B
+4189,Agree
+4190,Neutral
+4191,Male
+4192,C
+4193,"Strongly Disagree"
+4195,Disagree
+4196,"Strongly Agree"
+4198,Friday
+4199,Bachelors
+4200,"Strongly Agree"
+4201,Agree
+4202,Neutral
+4203,Agree
+4204,B
+4205,A
+4206,Disagree
+4207,C
+4208,D
+4209,"Strongly Agree"
+4210,Agree
+4211,Female
+4212,D
+4213,Neutral
+4215,Agree
+4216,Disagree
+4218,Tuesday
+4219,"College student"
+4220,Agree
+4221,"Strongly Agree"
+4222,"Strongly Agree"
+4223,Agree
+4224,B
+4225,B
+4226,Neutral
+4227,A
+4228,D
+4229,Agree
+4230,"Strongly Agree"
+4231,Female
+4232,C
+4233,Disagree
+4235,Agree
+4236,"Strongly Agree"
+4237,High
+4238,True
+4240,True
+4241,"Duration of the disease"
+4242,"A micro-organism"
+4243,Measles
+4244,"I don't know"
+4245,"I don't know"
+4247,True
+4248,"The number of susceptible people"
+4249,"I don't know"
+4250,"I don't know"
+4251,Weak
+4252,True
+4254,True
+4255,"The number of susceptible people"
+4256,"All of stated answers"
+4257,Diabetes
+4258,Weak
+4259,True
+4261,True
+4262,"The number of susceptible people"
+4263,"All of stated answers"
+4264,Diabetes
+4265,2
+4266,3
+4267,4
+4268,3
+4269,High
+4270,True
+4272,True
+4273,"Duration of the disease"
+4274,"A micro-organism"
+4275,Measles
+4276,3
+4277,3
+4278,2
+4279,3
+4281,Monday
+4282,Masters
+4283,Neutral
+4284,"Strongly Agree"
+4285,"Strongly Agree"
+4286,Neutral
+4287,B
+4288,B
+4289,Agree
+4290,A
+4291,D
+4292,"Strongly Agree"
+4293,Agree
+4294,Female
+4295,D
+4296,Disagree
+4298,"Strongly Agree"
+4299,"Strongly Disagree"
+4300,Weak
+4301,False
+4303,True
+4304,"Transmissibility rate"
+4305,"All of stated answers"
+4306,Diabetes
+4307,Weak
+4308,False
+4310,True
+4311,"Transmissibility rate"
+4312,"All of stated answers"
+4313,Diabetes
+4314,1
+4315,3
+4316,5
+4317,3
+4319,Friday
+4320,Doctorate
+4321,Agree
+4322,Neutral
+4323,"Strongly Disagree"
+4324,Agree
+4325,B
+4326,B
+4327,Neutral
+4328,A
+4329,D
+4330,"Strongly Disagree"
+4331,Agree
+4332,Male
+4333,D
+4334,Agree
+4336,"Strongly Disagree"
+4337,Agree
+4339,Friday
+4340,Doctorate
+4341,Agree
+4342,Neutral
+4343,"Strongly Disagree"
+4344,Agree
+4345,B
+4346,B
+4347,Neutral
+4348,A
+4349,D
+4350,"Strongly Disagree"
+4351,Agree
+4352,Male
+4353,D
+4354,Agree
+4356,"Strongly Disagree"
+4357,Agree
+4358,High
+4359,True
+4361,"I don't know"
+4362,"Transmissibility rate"
+4363,"All of stated answers"
+4364,Diabetes
+4365,High
+4366,True
+4368,"I don't know"
+4369,"Transmissibility rate"
+4370,"All of stated answers"
+4371,Diabetes
+4372,High
+4373,True
+4375,"I don't know"
+4376,"Transmissibility rate"
+4377,"All of stated answers"
+4378,Diabetes
+4379,3
+4380,1
+4381,3
+4382,3
+4383,3
+4384,1
+4385,3
+4386,3
+4388,Monday
+4389,Bachelors
+4390,"Strongly Agree"
+4391,Disagree
+4392,Neutral
+4393,Agree
+4394,B
+4395,B
+4396,Disagree
+4397,A
+4398,D
+4399,"Strongly Agree"
+4400,"Strongly Agree"
+4401,Male
+4402,D
+4403,Disagree
+4405,Agree
+4406,Disagree
+4407,Weak
+4408,False
+4410,True
+4411,"Transmissibility rate"
+4412,"A micro-organism"
+4413,Diabetes
+4414,Weak
+4415,True
+4417,True
+4418,"Transmissibility rate"
+4419,"All of stated answers"
+4420,Diabetes
+4421,3
+4422,4
+4423,5
+4424,3
+4426,Monday
+4427,Masters
+4428,Agree
+4429,Agree
+4430,Neutral
+4431,"Strongly Agree"
+4432,B
+4433,B
+4434,Neutral
+4435,A
+4436,D
+4437,"Strongly Agree"
+4438,Agree
+4439,Female
+4440,D
+4441,Disagree
+4443,"Strongly Agree"
+4444,Disagree
+4446,Friday
+4447,"High school graduate"
+4448,"Strongly Disagree"
+4449,Agree
+4450,Disagree
+4451,"Strongly Disagree"
+4452,D
+4453,B
+4454,Disagree
+4455,A
+4456,D
+4457,Disagree
+4458,Neutral
+4459,Male
+4460,D
+4461,Disagree
+4463,"Strongly Disagree"
+4464,Disagree
+4465,"I don't know"
+4466,True
+4468,"I don't know"
+4469,"Transmissibility rate"
+4470,"All of stated answers"
+4471,Diabetes
+4472,"I don't know"
+4473,False
+4475,True
+4476,"Duration of the disease"
+4477,"All of stated answers"
+4478,Diabetes
+4479,Weak
+4480,True
+4482,True
+4483,"Transmissibility rate"
+4484,"All of stated answers"
+4485,Diabetes
+4486,1
+4487,2
+4488,4
+4489,1
+4491,Monday
+4492,Bachelors
+4493,Agree
+4494,Neutral
+4495,Neutral
+4496,Agree
+4497,B
+4498,B
+4499,Neutral
+4500,A
+4501,D
+4502,Agree
+4503,Agree
+4504,Female
+4505,D
+4506,Neutral
+4508,Disagree
+4509,Disagree
+4510,Weak
+4511,False
+4513,True
+4514,"Transmissibility rate"
+4515,"All of stated answers"
+4516,Diabetes
+4517,Weak
+4518,True
+4520,True
+4521,"Transmissibility rate"
+4522,"All of stated answers"
+4523,Diabetes
+4524,2
+4525,2
+4526,4
+4527,3
+4529,Thursday
+4530,"High school graduate"
+4531,Agree
+4532,Agree
+4533,Neutral
+4534,"Strongly Agree"
+4535,B
+4536,E
+4537,"Strongly Agree"
+4538,A
+4539,D
+4540,Neutral
+4541,Neutral
+4542,Female
+4543,B
+4544,Disagree
+4546,Neutral
+4547,Agree
+4548,High
+4549,False
+4551,False
+4552,"Duration of the disease"
+4553,"A micro-organism"
+4554,Diabetes
+4555,High
+4556,True
+4558,True
+4559,"Duration of the disease"
+4560,"Environmental cause"
+4561,Diabetes
+4562,5
+4563,2
+4564,1
+4565,4
+4567,Thursday
+4568,"High school graduate"
+4569,Disagree
+4570,Disagree
+4571,"Strongly Agree"
+4572,Neutral
+4573,B
+4574,C
+4575,Neutral
+4576,C
+4577,D
+4578,Disagree
+4579,Agree
+4580,Female
+4581,A
+4582,Agree
+4584,"Strongly Disagree"
+4585,Agree
+4586,"I don't know"
+4587,"I don't know"
+4589,"I don't know"
+4590,"I don't know"
+4591,"I don't know"
+4592,"I don't know"
+4594,Monday
+4595,Masters
+4596,Neutral
+4597,Disagree
+4598,Agree
+4599,Neutral
+4600,B
+4601,B
+4602,Agree
+4603,A
+4604,D
+4605,Disagree
+4606,Agree
+4607,Male
+4608,D
+4609,Agree
+4611,"Strongly Disagree"
+4612,Agree
+4613,"I don't know"
+4614,True
+4616,True
+4617,"Transmissibility rate"
+4618,"I don't know"
+4619,Diabetes
+4620,Weak
+4621,True
+4623,True
+4624,"Transmissibility rate"
+4625,"All of stated answers"
+4626,Diabetes
+4627,4
+4628,1
+4629,3
+4630,1
+4632,Wednesday
+4633,Doctorate
+4634,Neutral
+4635,Neutral
+4636,Agree
+4637,"Strongly Agree"
+4638,C
+4639,C
+4640,Agree
+4641,A
+4642,D
+4643,Agree
+4644,Agree
+4645,Female
+4646,D
+4647,"Strongly Disagree"
+4649,Agree
+4650,Disagree
+4651,Weak
+4652,False
+4654,False
+4655,"Transmissibility rate"
+4656,"A micro-organism"
+4657,Diabetes

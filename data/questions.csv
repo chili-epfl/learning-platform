@@ -1,0 +1,34 @@
+id,text,choices,test_id,question_type
+6,"Calculate the infection rate of a disease with a contact rate in the population equal to 4 and a disease period per infected person equal to 6 and a reproductive number Ro equal to 2.4 (Answer -1 if you don't know): ","",3,text
+8,"Hand washing could be a measure to take in order to reduce:","Duration of the disease,The number of susceptible people,Transmissibility rate,I don't know",3,radio
+9,"A bacteria could be an infectious micro-organism causing an epidemia:","True,False,I don't know",3,radio
+10,"The genes of a host could be a cause of his infection:","True,False,I don't know",3,radio
+11,"If 4 infected people transmit the disease to 2 other persons, the probability of an epidemic is: ","High, Weak, I don't know",3,radio
+12,"The day after the day after tomorrow is four days before Monday. What day is it today?
+","Monday, Tuesday, Wednesday, Thursday, Friday",1,radio
+13,"At a conference, 4 members shook hands with each other before & after the meeting. How many total number of hand shakes occurred?
+","",1,text
+20,"The causes of an epidemic could be caused by:","A micro-organism,Environmental cause,All of stated answers,I don't know",3,radio
+21,"What of the following disease is not an epidemic: ","Cholera,Ebola,Diabetes,Measles,Plague,I don't know",3,radio
+22,"In general, I am always prepared:","Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree",1,radio
+23,"I pay attention to details:","Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree",1,radio
+24,"I follow a schedule for my daily tasks:","Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree",1,radio
+25,"I leave my belongings around:","Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree",1,radio
+26,"I often forget to put things back in their proper place:","Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree",1,radio
+30,"I don't mind being the center of attention:","Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree",1,radio
+31,"I feel confortable around people:","Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree",1,radio
+32,"I start conversations:","Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree",1,radio
+33,"I am quiet around strangers:","Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree",1,radio
+34,"I don't talk a lot:","Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree",1,radio
+35,"You are:","Male,Female",1,radio
+36,"What is you higher education level:","Haven't graduated high school, High school graduate, Apprenticeship, College student, Bachelors, Masters, Doctorate ",1,radio
+37,"How mentally demanding was the activity:","1  ,  2  ,  3  ,  4  ,  5",4,radio
+38,"How hurried or rushed was the pace of the test:","  1  ,  2  ,  3  ,  4  ,  5  ",4,radio
+39,"How successful were you accomplishing the activity:","  1  ,  2  ,  3  ,  4  ,  5  ",4,radio
+40,"How stressed, irritated, annoyed  and discouraged were you :","  1  ,  2  ,  3  ,  4  ,  5",4,radio
+41,"What country do you live in:","",1,text
+42,paperFolding1.jpg,"    A   ,   B   ,   C   ,   D   ,   E    ",1,radio
+43,paperFolding2.jpg,"    A   ,   B   ,   C   ,   D   ,   E    ",1,radio
+44,paperFolding3.jpg,"    A   ,   B   ,   C   ,   D   ,   E    ",1,radio
+45,paperFolding4.jpg,"    A   ,   B   ,   C   ,   D   ,   E    ",1,radio
+46,paperFolding5.jpg,"    A   ,   B   ,   C   ,   D   ,   E    ",1,radio
