@@ -62,7 +62,7 @@ def AssignActivity(request, user):
     
     user = User.objects.get(id=user)
     '''determine a random path for the activities based on a unique generated number'''
-    unique = request.session.session_key+user.email
+    unique = user.email
     unique = hashlib.sha224(unique).hexdigest()
     last=unique[len(unique)-1]
     last="{:08b}".format(int(last,16))

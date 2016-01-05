@@ -6,7 +6,7 @@
 {% if "Prerequisite Test" in test.name %}
         <h1> Test </h1>
 <div style="font-family: 'FranchiseRegular','Arial Narrow',Arial,sans-serif;
-font-size: 20px;"><p> The following questions are about the two concetps you are going to learn today. You don't have to know the answers. Please select the answer that indicates that you don't know if so. </p></div>
+font-size: 20px;"><p> The following questions are about the two concepts you are going to learn today. You don't have to know the answers. Please select the answer that indicates that you don't know if so. </p></div>
 {% else %}
         <h1>{{test.name}}</h1>
 {% endif %}
@@ -31,7 +31,7 @@ Answer from 1 to 5:<br>
             
             {% if "jpg" in field.label %}
             
-                <label>Select the right result image</label><br>
+                <label>If we fold the paper as it follows and we make holes, what is the resulting image:</label><br>
                     <img src="{% static field.label %}" height="35%" width="65%">
                     <div class="rad-btn">{{ field }}</div>
             {% else %}
